@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.six{
+    height: 300px;
+    width: 300px;
+    background-color: darkblue;
+}
+.four{
+    height: 300px;
+    width: 300px;
+    /* width: 45%; */
+    background-color: aquamarine;
+}
+.five{
+    height: 300px;
+    width: 300px;
+    /* width: 45%; */
+    background-color: slateblue;
+}

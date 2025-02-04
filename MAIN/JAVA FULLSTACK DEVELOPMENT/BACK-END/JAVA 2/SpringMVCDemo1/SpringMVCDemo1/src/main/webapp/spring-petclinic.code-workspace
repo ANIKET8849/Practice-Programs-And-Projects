@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../SPRING WORKSPACE/spring-petclinic"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}

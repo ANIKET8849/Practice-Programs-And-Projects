@@ -1,0 +1,341 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    text-align: center;
+}
+.nav li{
+    /* display: flex; */
+    list-style-type: none;
+    text-align: center;
+}
+.nav-a{
+    color: white;
+    display: none;
+    text-decoration: none;
+    
+    margin: 10px;
+}
+.nav-a:hover{
+    color: white;
+}
+.right-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-img{
+    margin: 20px;
+}
+.btn-nav{
+    height: 40px;
+    width: 120px;
+    color: black;
+    background-color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 12px;
+    /* line-height: 1; */
+    /* display: inline-block; */
+    float: right;
+    clear: both;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 10px;
+}
+.btn-nav a{
+    color: black;
+}
+.btn-nav:hover{
+    background-color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 10px;
+}
+.background{
+    height: 400px;
+    background-image: url(../public/img/10027.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+.header-div{
+    text-align: center;
+    margin: 70px 40px;
+}
+.header h2{
+    color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.header p{
+    color: rgba(255,255,255,.8);
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.btn-header{
+    background-color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 10px;
+}
+.btn-header:hover{
+    background-color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 10px;
+}
+.heading{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 15px 55px;
+}
+.paragraph{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 10px 25px 25px 25px;
+}
+.section1{
+    justify-content: center;
+}
+.section1-img{
+    height: 300px;
+    width: 380px;
+    justify-content: center;
+}
+.heading1{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+}
+.paragraph1{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.section2{
+    justify-content: center;
+}
+.section2-img{
+    height: 250px;
+    width: 330px;
+    margin: 20px;
+}
+.section3{
+    justify-content: center;
+}
+.section3 p{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin: 0px 20px;
+}
+.section3 a{
+    color: black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.section3-div{
+    height: 250px;
+    width: 330px;
+    margin: 20px;
+}
+.section4{
+    justify-content: center;
+}
+.section4-img{
+    height: 250px;
+    width: 330px;
+    /* justify-content: center; */
+    margin: 40px 0px;
+}
+.section4-div{
+    text-align: center;
+}
+.section4 h2{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.section4 h4{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.section4 p{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.section4 a{
+    color: black;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.4;
+    letter-spacing: 1px;
+}.section5{
+    color: white;
+    background-color: black;
+}
+.section5 div{
+    margin: 30px 0px 10px 0px;
+}
+.section5 h5{
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.section5 li{
+    list-style-type: none;
+}
+.section5 a{
+    color: white;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .header-div{
+        width: 400px;
+        text-align: left;
+        margin: 80px 50px;
+    }
+    .header h2{
+        font-size: 40px;
+    }
+    .section1{
+        width: 100%;
+        justify-content: center;
+    }
+    .section1-img{
+        height: 600px;
+        width: 700px;
+        margin: 20px;
+    }
+    .paragraph{
+        margin: 10px 80px;
+    }
+    .section2-img{
+        height: 600px;
+        width: 700px;
+        margin: 20px;
+    }
+    .heading1{
+        font-weight: 600;
+    }
+    .paragraph1{
+        /* width: 500px; */
+        margin: 10px 80px;
+    }
+    .section4-img{
+        height: 550px;
+        width: 650px;     
+        margin: 40px 0px;
+    }
+    .section4 p{
+        /* width: 550px; */
+        margin: 10px 80px;
+    }
+}
+
+
+
+
+@media(min-width:992px){
+    .nav-a{
+        display: inline-block;
+    }
+    .background{
+        height: 600px;
+    }
+    .section1-img{
+        height: 900px;
+        width: 1000px;
+        margin: 100px;
+    }
+    .section2-img{
+        height: 350px;
+        width: 400px;
+        margin: 20px;
+    }
+    .right-div{
+        height: 500px;
+        float: right;
+        clear: both;
+        margin-top: 150px;
+    }
+    .left-div{
+        height: 500px;
+        margin-top: 150px;
+    }
+    .section3-div{
+        height: 450px;
+        width: 500px;
+        margin: 20px;
+    }
+    .section4-div{
+        margin-top: 150px;
+    }
+}

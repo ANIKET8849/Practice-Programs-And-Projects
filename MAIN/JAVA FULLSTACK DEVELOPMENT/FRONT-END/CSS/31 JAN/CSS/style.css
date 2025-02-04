@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 200px;
+    display: inline;
+    list-style: none;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.nav a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.nav a:hover{
+    background-color: lightgrey;
+}
+.nav li{
+    text-decoration: none;
+    float: right;
+    list-style: none;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    /* padding: 10px; */
+}
+.section1{
+    width: 100%;
+    height: 420px;
+    background-image: url(../css/IMAGES/hamburger.jpg);
+    background-size: 100% 100%;
+}
+.section1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: darkslategrey;
+    letter-spacing: 3px;
+    padding:  345px 500px 30px 35px;
+}
+.section2{
+    /* padding-top: 5px; */
+    margin: 40px;
+}
+.section2-image{
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 35px;
+}
+.section2-div2{
+    height: 400px;
+    width: 350px;
+  /* display: inline-block; */
+  float: right;
+  margin-right: 10px;
+}
+.section2-div2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 20px 60px;
+}
+.section2-div2 h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+   padding: 20px 60px;
+}
+.section2-div2 p{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.section2-div2-span{
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+/* SECTION3 */
+.section3-div1{
+    height: 750px;
+    width: 600px;
+  display: inline-block;
+  line-height: 2;
+  /* float: left; */
+  /* margin-left: 150px; */
+  padding-left: 50px;
+}
+.section3-div2{
+    height: 800px;
+    width: 700px;
+    float: right;
+    /* line-height: 1.5; */
+    margin-right: 36px;
+}
+.section3-div1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding: 40px 150px;
+}
+.section3-div1 h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.section3-div1 p{
+    color: gray;
+}
+.section4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
+    text-align: justify;
+    line-height: 2.5;
+    margin: 50px 50px;
+    
+}
+.section4 h2{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    /* margin: 10px 0px; */
+    padding-bottom: 10px;
+}
+.section4 span{
+    font-size: 18px;
+    color: lightslategray;
+    /* padding: 6px 0px; */
+    margin: 10px 0px;
+}
+.section4 input{
+    height: 34px;
+    width: 760px;
+    margin: 6px;
+}
+.section4 button{
+    height: 30px;
+    width: 122px;
+    background-color: lightcyan;
+    text-align: center;
+}
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* background-color: grey; */
+    height: 130px;
+    width: 100%;
+    background-image: url(../css/IMAGES/footer\ img.webp);
+    padding-top: 50px;
+    /* height: 100%;
+    width: 100%; */
+    /* margin: 60px 500px; */
+}
+@media (min-width:992px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        height: 200px;
+        display: inline;
+        list-style: none;
+        position: relative;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    
+    .nav a{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    .nav a:hover{
+        background-color: lightgrey;
+    }
+    .nav li{
+        text-decoration: none;
+        float: right;
+        list-style: none;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        /* padding: 10px; */
+    }
+    .section1{
+        width: 100%;
+        height: 420px;
+        background-image: url(../css/IMAGES/hamburger.jpg);
+        background-size: 100% 100%;
+    }
+    .section1 h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        font-weight: 300;
+        color: darkslategrey;
+        letter-spacing: 3px;
+        padding:  345px 500px 30px 35px;
+    }
+    .section2{
+        /* padding-top: 5px; */
+        margin: 40px;
+    }
+    .section2-image{
+        height: 500px;
+        width: 300px;
+        display: inline-block;
+        margin-top: 35px;
+    }
+    .section2-div2{
+        height: 400px;
+        width: 350px;
+      /* display: inline-block; */
+      float: right;
+      margin-right: 10px;
+    }
+    .section2-div2 h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding: 20px 60px;
+    }
+    .section2-div2 h4{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+       padding: 20px 60px;
+    }
+    .section2-div2 p{
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .section2-div2-span{
+        color: grey;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+    }
+    /* SECTION3 */
+    .section3-div1{
+        height: 750px;
+        width: 600px;
+      display: inline-block;
+      line-height: 2;
+      /* float: left; */
+      /* margin-left: 150px; */
+      padding-left: 50px;
+    }
+    .section3-div2{
+        height: 800px;
+        width: 700px;
+        float: right;
+        /* line-height: 1.5; */
+        margin-right: 36px;
+    }
+    .section3-div1 h2{
+        font-family: 'Times New Roman', Times, serif;
+        /* text-align: center; */
+        font-weight: 300;
+        font-size: 40px;
+        letter-spacing: 5px;
+        padding: 40px 150px;
+    }
+    .section3-div1 h5{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .section3-div1 p{
+        color: gray;
+    }
+    .section4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* padding-top: 64px;
+        padding-bottom: 64px; */
+        text-align: justify;
+        line-height: 2.5;
+        margin: 50px 50px;
+        
+    }
+    .section4 h2{
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        /* margin: 10px 0px; */
+        padding-bottom: 10px;
+    }
+    .section4 span{
+        font-size: 18px;
+        color: lightslategray;
+        /* padding: 6px 0px; */
+        margin: 10px 0px;
+    }
+    .section4 input{
+        height: 34px;
+        width: 760px;
+        margin: 6px;
+    }
+    .section4 button{
+        height: 30px;
+        width: 122px;
+        background-color: lightcyan;
+        text-align: center;
+    }
+    .footer{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        /* background-color: grey; */
+        height: 130px;
+        width: 100%;
+        background-image: url(../css/IMAGES/footer\ img.webp);
+        padding-top: 50px;
+        /* height: 100%;
+        width: 100%; */
+        /* margin: 60px 500px; */
+    }
+}

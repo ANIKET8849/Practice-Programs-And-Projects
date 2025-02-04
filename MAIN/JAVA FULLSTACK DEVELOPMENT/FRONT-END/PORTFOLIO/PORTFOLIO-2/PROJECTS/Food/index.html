@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/878/878052.png">
+    <!-- <link rel="stylesheet" href="../02-Food-Project/Boostrap-files/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurantly | Responsive Web Design</title>
+</head>
+<body>
+    
+   <header class="hero-bg " id="home">
+    <section>
+      
+    <div class="iconTop d-flex align-items-center justify-content-center rounded-circle">
+      <a href="" target="_top"><i class="bi bi-arrow-up-short topIconBg fs-1"></i></a>
+    </div>
+        <div class="container-fluid container-xl py-1">
+            
+            <div class="row py-1">
+                <div class="col-12 col-md-6 text-center text-md-start ">
+                  <!-- <i class="fa-solid fa-mobile-screen"></i> -->
+                      <i class="fa-solid fa-mobile-screen faSize"></i><a href="" class="text-decoration-none text-white mon  fw-semibold"> +1 5589 55488 55</a>
+                      <i class="fa-regular fa-clock ms-2 faSize"></i><span class="text-white mon  fw-semibold">&nbsp; Mon-Sat:11AM-23PM</span>
+                </div>
+
+                <div class="col-md-6 d-none d-md-block  ">
+                      <p class="text-white text-end m-0"><span class="primary">En / </span>De</p>
+                </div>
+           </div> 
+        </div>
+    </section>
+    
+    <section class="nav-background Sticy-Section">
+        <nav class="navbar p-0 navbar-expand-lg  container-xl  ">
+            <div class="container-fluid  py-2">
+              <a class="navbar-brand restaurantly fs-1 text-white" href="#">Restaurantly</a>
+              
+              <button class="bg-transparent border-0 d-lg-none"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon" id="white"></span> -->
+                <i class="fa-solid fa-bars text-white  fs-1"></i>
+              </button>
+
+            
+              <div class="collapse navbar-collapse text-center" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll align-items-center" style="--bs-scroll-height: 500px;">
+                  <li class="nav-item px-2">
+                    <a class="nav-link active " aria-current="page" href="#home"><span class="primary fs-5"> Home</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link  text-white-1" href="#about">About</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white-1" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-1" href="#special">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-1" href="#event">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-1" href="#chefs">Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white-1 " href="#gallary">Gallery</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Drop Down
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-1 " href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+              <button class="btn btn-border px-3 rounded-pill text-white d-none d-lg-block" type="submit">BOOK A TABLE</button>
+    
+        </div>
+          </nav>
+</section>
+
+<section>
+
+    <div class="container welcome">
+        <div class="row text-center justify-content-center justify-content-lg-start" data-aos="zoom-in"  data-aos-duration="1000">
+          <div class="col-12 col-lg-6">
+            <h1 class="text-white fw-bolder font-size">Welcome to <span class="primary fontSizeResto"> Restaurantly</span></h1>
+            <h5 class="text-white serif pb-md-3">Delivering great food for more than <small><small><small class="fw-bolder">1</small></small></small>8 years!</h5>
+            <button class="btn btn-border py-xl-2 px-3 rounded-pill text-white btn-1 mb-2 mb-md-0 " type="submit">OUR MENU</button>
+            <button class="btn btn-border py-xl-2 px-3 rounded-pill text-white btn-1  ms-md-2 " type="submit">BOOK A TABLE</button>
+          </div>
+          
+          <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center pt-5">
+            <div class="Playbtn">
+               <a href="https://youtu.be/u6BOC7CDUTQ"><i class="bi bi-play-fill text-white fs-2"></i></a>
+            </div>
+          </div>
+        </div>
+       
+    </div>
+</section>
+</header>
+
+<!-- About Section -->
+<section class="About-bg-image sectionsPosition" id="about">
+
+  <div class="container pt-5 pt-md-0 " >
+    <div class="row row-cols-lg-2" >
+    
+       <div data-aos="fade-up"  data-aos-duration="1500">
+        <h2 class="text-white fw-semibold serif pt-4 pt-lg-0 ">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+        <p class="text-white p-0"><em> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></p>
+        <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Ullamco laboris nisi ut  ex ea commodo consequat. ut aliquip ex ea commodo consequat. ut aliquip ex ea ut aliquip ex ea commodo consequat. ut aliquip ex ea commodo consequat.commodo consequat. commodo commodo consequat.  consequat. </p>
+        <p class="text-white p-0 d-lg-none d-xxl-block"> Ullamco laboris nisi ut aliquip ex ea commodo consequat.Ullamco laboris nisi ut aliquip consequat.  consequat. ex ea commodo consequat.Ullamco laboris nisi ut aliquip ex ea commodo consequat.Ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <!-- <p class="text-white p-0"><i class="fa-regular fa-circle-check color-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+      </div>
+      
+      <div class=" pt-2 order-first order-lg-last" data-aos="zoom-in"  data-aos-duration="1000">
+        <div class="overflow-hidden">
+          <img src="images/about.jpg" class="img-fluid imgTransform  border border-4 border-dark"  alt=""></div>
+
+        </div>
+      </div>
+    
+      </div>    
+
+
+</section>
+
+<!-- Why Choose our Restarunt Section -->
+<section class="cards pb-5 ">
+
+  <div class="container py-5 py-xl-2 py-xl-5">
+      <div class="row " data-aos="fade-up" data-aos-duration="1500">
+        <p class="col-12 text-white text-opacity-75 fw-bold fst-normal" >WHY US<span class="whyUs mb-1 ms-2"></span></p>
+        <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic">Why Choose Our Restaurant</p>
+     </div>
+  </div>
+  
+  <div class="container">
+     <div class="row row-cols-1 gap-4 gap-lg-2 gap-xl-1   px-3 px-lg-4 justify-content-lg-between">
+      
+       <div class="col-lg-3 text-white bgCard bg-opacity-25 py-xl-2 px-lg-4 nisi" data-aos="zoom-in"  data-aos-duration="1000" >
+          <h3  class="color-check py-3 Numbers fw-bolder pt-lg-5">01</h3>
+          <h4 class="serif Ipsum fw-semibold">Lorem Ipsum</h4>
+          <p class="py-4 py-lg-2 dolerum">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat.</p>
+      </div>
+
+        <div class="col-lg-3 text-white bgCard py-xl-2 px-lg-4 nisi " data-aos="zoom-in"  data-aos-duration="1000" >
+          <h3  class="color-check py-3 Numbers fw-bolder pt-lg-5">02</h3>
+          <h4 class="serif Ipsum fw-semibold">Repellat Nihil</h4>
+          <p class="py-4 py-lg-2 dolerum">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat.</p>
+        </div>
+
+        <div class=" col-lg-3 text-white  bgCard py-xl-2 px-lg-4 nisi" data-aos="zoom-in"  data-aos-duration="1000"  >
+          <h3  class="color-check py-3 Numbers  fw-bolder pt-lg-5">03</h3>
+          <h4 class="serif Ipsum fw-semibold">Ad ad velit qui</h4>
+          <p class="py-4 py-lg-2 dolerum">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat.</p>
+        </div>
+  </div>
+  
+	</div>
+</section>
+
+
+<!-- Special section -->
+<section class="cards backgroundColor" id="special">
+  <div class="container pt-5">
+   
+    <div class="row " data-aos="fade-up" data-aos-duration="1500">
+      <p class="col-12 text-white text-opacity-75 fw-bold fst-normal">SPECIALS<span class="whyUs mb-1 ms-2"></span></p>
+      <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Check Our Specials</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-duration="1200">
+      <div class="col-12 pb-3 col-lg-3">
+         <p class="px-3 border-right py-lg-3 m-lg-0 lusto lusto-1"><a href="#" class="text-white  fst-normal  fw-semibold">Modi sit est</a></p>
+         <p class="px-3 border-right pb-lg-3 pt-lg-3 m-lg-0"><a href="#" class="text-white fst-normal  fw-semibold">Unde praesentium sed</a></p>
+         <p class="px-3 border-right pb-lg-3 m-lg-0"><a href="#" class="text-white fst-normal  fw-semibold">Pariatur explicabo vel</a></p>
+         <p class="px-3 border-right pb-lg-3 m-lg-0"><a href="#" class="text-white fst-normal  fw-semibold">Nostrum qui quasi</a></p>
+         <p class="px-3 border-right pb-lg-3 m-lg-0"><a href="#" class="text-white fst-normal  fw-semibold">lusto ut expedita aut</a></p>
+      </div>
+      
+      <div class="col-12 col-lg-3 col-xl- order-lg-last pb-lg-5 ">
+           <img src="./images/specials-5.png" class="img-fluid" alt="">
+      </div>
+      
+      <div class="col-12 py-4 p-lg-0 ps-lg-3 col-lg-6 ">
+           <h1 class="text-white fst-normal serif fw-semibold">Architecto ut aperiam id</h1>
+           <p  class="dolerum">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+           <p  class="dolerum fst-normal">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+
+<!-- Event-Section -->
+<section class="event-bg-img py-5" id="event">
+  <div class="container pb-5">
+        <div class="row " data-aos="fade-up" data-aos-duration="1500">
+          <p class="col-12 text-white text-opacity-75 fw-bold fst-normal " >EVENTS<span class="whyUs mb-1 ms-2"></span></p>
+          <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Organize Your Events in our Restaurant</p>
+        </div>
+
+  <div class="carousel slide" data-bs-ride="carousel" id="myslider" data-aos="fade-up" data-aos-duration="1500">
+      <!-- indicators -->
+      <div class="carousel-indicators indicators  mb-0" >
+           <button type="button" data-bs-target="#myslider" data-bs-slide-to="0" class="active"></button>
+           <button type="button" data-bs-target="#myslider" data-bs-slide-to="1"></button>
+           <button type="button" data-bs-target="#myslider" data-bs-slide-to="2" ></button>
+      </div>
+
+      <!-- <ol class="carousel-indicators">
+        <li data-bs-target="myslider" data-bs-slide-to="0"></li>
+        <li data-bs-target="myslider" data-bs-slide-to="1" class="active"></li>
+        <li data-bs-target="myslider" data-bs-slide-to="2"></li>
+      </ol> -->
+   
+   <!--inner  -->
+            <div class="carousel-inner">
+            
+                <div class="carousel-item">
+                  <div class="d-lg-flex">
+                    <div class="col-12 col-lg-6 ">
+                      <img src="./images/event-birthday.jpg" alt="" class="img-fluid">
+                    </div>
+                   <div class="carousel-caption text-start col-12 col-lg-6 position-static ps-3  pt-3 pt-lg-0">
+                      <h1 class="color-check serif fw-bold fst-italic">Custom Parties</h1>
+                      <h1><span class="fw-semibold  border-bottom border-3 border-danger"><span class="color-check">$</span><span class="h3  serif fw-bold">89</span></span></h1>
+                      <p class="fst-italic fw-semibold fs-5 pt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>  
+                      <p class="lh-lg d-lg-none d-xl-block">
+                        Duis aute irure dolor in reprehenderit in voluptate velit.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. <span class="d-xl-none d-xxl-inline-block">  pariatur
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. pariatur
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure voluptate.</span>
+                      </p>
+                   </div>
+                  </div> 
+                </div>   
+       
+               <div class="carousel-item active ">
+                <div class="d-lg-flex">
+                   <div class="col-12 col-lg-6">
+                        <img src="./images/event-custom.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="carousel-caption text-start col-12 col-lg-6 position-static ps-3  pt-3 pt-lg-0">
+                       <h1 class="color-check serif fw-bold fst-italic">Birthday Parties</h1>
+                       <h1 ><span class="fw-semibold  border-bottom border-3 border-danger"><span class="color-check">$</span><span class="h3 serif fw-bold">189</span></span></h1>
+                       <p class="fst-italic fw-semibold fs-5 pt-4">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       </p>  
+                       <p class="lh-lg d-lg-none d-xl-block">
+                         Duis aute irure dolor in reprehenderit in voluptate velit.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.  <span class="d-xl-none d-xxl-inline-block">   pariatur
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                         Ullamco labovelit esse cillum dolore eu fugiat nulla pariatur.</span>
+                       </p>
+                    </div>
+                  </div>  
+                </div>
+       
+                 <div class="carousel-item ">
+                   <div class="d-lg-flex">
+                     <div class="col-12 col-lg-6">
+                       <img src="./images/event-private.jpg" alt="" class="img-fluid">
+                     </div>
+       
+                     <div class="carousel-caption text-start col-12 col-lg-6 position-static ps-3 pt-3 pt-lg-0">
+                       <h1 class="color-check serif fw-bold fst-italic">Private Parties</h1>
+                       <h1><span class="fw-semibold   border-bottom border-3 border-danger"><span class="color-check">$</span><span class="h3  serif fw-bold">290</span></span></h1>
+          
+                       <p class="fst-italic fw-semibold fs-5 pt-4">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       </p>  
+                       <p class="lh-lg d-lg-none d-xl-block">
+                         Duis aute irure dolor in reprehenderit in voluptate velit.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.<span class="d-xl-none d-xxl-inline-block">   pariatur
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. pariatur
+                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor voluptate.</span>
+                       </p>
+                     </div>
+                    </div> 
+                  </div>
+          </div>
+  </div> 
+</div>
+</section>
+
+<!-- reservation table-section -->
+<section class="cards py-5">
+  <div class="container">
+
+    <div class="row " data-aos="fade-up" data-aos-duration="1500">
+      <p class="col-12 text-white text-opacity-75 fw-bold fst-normal">RESERVATION<span class="whyUs mb-1 ms-2"></span></p>
+      <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Book a Table
+
+      </p>
+    </div>
+
+
+    <form class="row g-4" data-aos="fade-up" data-aos-duration="1000">
+      <div class=" col-md-6 col-lg-4">
+          <input type="text" class="form-control inputBorder bg-transparent  rounded-0 col-md-6 text-white ps-2" placeholder="Your Name">
+      </div>
+
+      <div class=" col-md-6 col-lg-4">
+        <input type="text" class="form-control inputBorder bg-transparent rounded-0 col-md-6 text-white ps-2" placeholder="Your Mail">
+      </div>
+      
+      <div class=" col-md-6 col-lg-4">
+        <input type="text" class="form-control inputBorder bg-transparent rounded-0 col-md-6 text-white ps-2" placeholder="Your Phone">
+      </div>
+
+      <div class=" col-md-6 col-lg-4">
+        <input type="text" class="form-control inputBorder bg-transparent  rounded-0 col-md-6 text-white ps-2" placeholder="Your Date">
+      </div>
+
+      <div class=" col-md-6 col-lg-4">
+        <input type="text" class="form-control inputBorder bg-transparent rounded-0 col-md-6 text-white ps-2" placeholder="Time">
+      </div>
+
+      <div class=" col-md-6 col-lg-4">
+        <input type="text" class="form-control inputBorder bg-transparent rounded-0 col-md-6 text-white ps-2" placeholder="# of people">
+      </div>
+      
+      <div class="col-12">
+        <textarea class="col-12 ps-2 bg-transparent inputBorder text-white"  cols="30" rows="8"  placeholder="Message"></textarea>
+      </div>
+
+      <div class="text-center"> 
+        <button type="button" class="btn btn-border px-4 fw-semibold rounded-pill text-white btn-back-color">Book a Table</button>
+      </div>  
+     </form>
+  </div>
+</section>
+
+
+
+<!-- Testimonials section -->
+<section class="backgroundColor py-5">
+  <div class="container">
+    <div class="row " data-aos="fade-up" data-aos-duration="1500">
+      <p class="col-12 text-white text-opacity-75 fw-bold fst-normal " >TESTIMONIALS<span class="whyUs mb-1 ms-2"></span></p>
+      <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">What they're saying about us</p>
+    </div>
+
+    <div class="carousel slide pb-5" id="Slider" data-bs-ride="carousel"  data-aos="fade-up" data-aos-duration="1500">
+        <!-- indicators , we takes the indicators as much we have carousel-item .here we have five carousel-item that's why we have here five indicators-->
+        <div class="carousel-indicators mb-0" >
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="2" ></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="3" ></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="4" ></button>
+        </div>
+
+        <div class="carousel-inner">
+         <!-- we have taken five carousel items -->
+         <!-- first -->
+          <div class="carousel-item active col-lg-4">
+            <div class="row ">
+               
+                     <div class=" col-lg-4 mb-4 mb-lg-0">
+                       <div class="card border-0 bg-cards ">
+                        <figure class=" figureTestimonials pt-3 ">
+                          <img src="./images/testimonials-5.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+
+                          <figcaption>
+                               <h2 class="text-white serif m-0 pt-1">John Larson</h2>
+                               <p class="text-muted serif mb-0">Entrepreneur</p>
+                               <div class="text-center mt-3">
+                                <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                            </div>
+                          </figcaption>
+                        </figure>
+             
+                            <div class="card-body position-relative bg-cards rounded-3  ">
+                              <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+                            </div>
+                            
+           
+                       </div>
+                   </div>
+     
+                    <div class=" col-lg-4 mb-4 mb-lg-0">
+                      <div class="card border-0 bg-cards">
+                        <figure class=" figureTestimonials pt-3">
+                          <img src="./images/testimonials-1.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                          <figcaption>
+                               <h2 class="text-white serif m-0 pt-1">Saul Goodman</h2>
+                               <p class="text-muted serif mb-0">CEO &amp; Founder</p>
+                               <div class="text-center mt-3">
+                                <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                            </div>
+                          </figcaption>
+                        </figure>
+                      <div class="card-body">
+                        <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Tamen tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+                     </div>
+    
+                    </div>
+                  </div>
+
+                  <div class=" col-lg-4 mb-4 mb-lg-0">
+                     <div class="card border-0 bg-cards ">
+                      <figure class=" figureTestimonials pt-3">
+                        <img src="./images/testimonials-2.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                        <figcaption>
+                             <h2 class="text-white serif m-0 pt-1">Sara Wilsson</h2>
+                             <p class="text-muted serif mb-0">Designer</p>
+                             <div class="text-center mt-3">
+                              <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                              <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                     <div class="card-body">
+                      <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp;  Velit enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. &nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                     </div>
+        
+                   </div>
+                  </div>
+
+          </div>
+        </div>
+        <!-- second -->
+        <div class="carousel-item  col-lg-4">
+          <div class="row">
+             
+                   <div class=" col-lg-4 mb-4 mb-lg-0">
+                     <div class="card border-0 bg-cards ">
+                      <figure class=" figureTestimonials pt-3">
+                        <img src="./images/testimonials-1.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                        <figcaption>
+                             <h2 class="text-white serif m-0 pt-1">Saul Goodman</h2>
+                             <p class="text-muted serif mb-0">CEO &amp; Founder</p>
+                             <div class="text-center mt-3">
+                              <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                              <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                     <div class="card-body">
+                
+                      <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Tamen tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                     </div>
+      
+                   </div>
+                 </div>
+   
+                  <div class=" col-lg-4 mb-4 mb-lg-0">
+                    <div class="card border-0 bg-cards ">
+                      <figure class=" figureTestimonials pt-3" >
+                        <img src="./images/testimonials-2.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                        <figcaption>
+                             <h2 class="text-white serif m-0 pt-1">Sara Wilsson</h2>
+                             <p class="text-muted serif mb-0">Designer</p>
+                             <div class="text-center mt-3">
+                              <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                              <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    <div class="card-body">
+                      <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp;  Dolar enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim  veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                    </div>
+         
+                  </div>
+                </div>
+
+                <div class=" col-lg-4 mb-4 mb-lg-0">
+                   <div class="card border-0 bg-cards">
+                    <figure class=" figureTestimonials pt-3">
+                      <img src="./images/testimonials-3.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                      <figcaption>
+                           <h2 class="text-white serif m-0 pt-1">Jena Karlis</h2>
+                           <p class="text-muted serif mb-0">Store Owner</p>
+                           <div class="text-center mt-3">
+                            <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                        </div>
+                      </figcaption>
+                    </figure>
+                   <div class="card-body">
+                    <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Cillum tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                   </div>
+                 
+                 </div>
+                </div>
+
+        </div>
+      </div>
+        <!-- third -->
+      <div class="carousel-item  col-lg-4 mb-4 mb-lg-0">
+        <div class="row">
+           
+                 <div class=" col-lg-4">
+                   <div class="card border-0 bg-cards ">
+                    <figure class=" figureTestimonials pt-3">
+                      <img src="./images/testimonials-2.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                      <figcaption>
+                           <h2 class="text-white serif m-0 pt-1">Sara Wilsson</h2>
+                           <p class="text-muted serif mb-0">Designer</p>
+                           <div class="text-center mt-3">
+                            <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                        </div>
+                      </figcaption>
+                    </figure>
+                   <div class="card-body">
+                    <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Qurum tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                   </div>
+                   
+                 </div>
+               </div>
+ 
+                <div class=" col-lg-4 mb-4 mb-lg-0">
+                  <div class="card border-0 bg-cards ">
+                    <figure class=" figureTestimonials pt-3">
+                      <img src="./images/testimonials-3.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                      <figcaption>
+                           <h2 class="text-white serif m-0 pt-1">Jena Karlis</h2>
+                           <p class="text-muted serif mb-0">Store Owner</p>
+                           <div class="text-center mt-3">
+                            <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                            <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  <div class="card-body">
+                    <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                  </div>
+        
+                </div>
+              </div>
+
+              <div class=" col-lg-4 mb-4 mb-lg-0">
+                 <div class="card border-0 bg-cards">
+                  <figure class=" figureTestimonials pt-3">
+                    <img src="./images/testimonials-4.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                    <figcaption>
+                         <h2 class="text-white serif m-0 pt-1">Matt Brandon</h2>
+                         <p class="text-muted serif mb-0">Freelancer</p>
+                         <div class="text-center mt-3">
+                          <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                          <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                 <div class="card-body">
+                  <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Malis tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                 </div>
+              
+               </div>
+              </div>
+
+      </div>
+    </div>
+
+    <!-- forth -->
+    <div class="carousel-item  col-lg-4">
+      <div class="row">
+         
+               <div class=" col-lg-4 mb-4 mb-lg-0">
+                 <div class="card border-0 bg-cards">
+                  <figure class=" figureTestimonials pt-3">
+                    <img src="./images/testimonials-3.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                    <figcaption>
+                         <h2 class="text-white serif m-0 pt-1">Jena Karlis</h2>
+                         <p class="text-muted serif mb-0">Store Owner</p>
+                         <div class="text-center mt-3">
+                          <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                          <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                 <div class="card-body">
+                  <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Legam tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                 </div>
+       
+               </div>
+             </div>
+
+              <div class=" col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-0 bg-cards " >
+                  <figure class=" figureTestimonials pt-3">
+                    <img src="./images/testimonials-4.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                    <figcaption>
+                         <h2 class="text-white serif m-0 pt-1">Matt Brandon</h2>
+                         <p class="text-muted serif mb-0">Freelancer</p>
+                         <div class="text-center mt-3">
+                          <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                          <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                <div class="card-body">
+                  <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Import tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+                </div>
+      
+              </div>
+            </div>
+
+            <div class=" col-lg-4 mb-4 mb-lg-0">
+               <div class="card border-0 bg-cards ">
+                <figure class=" figureTestimonials pt-3">
+                  <img src="./images/testimonials-5.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                  <figcaption>
+                       <h2 class="text-white serif m-0 pt-1">John Larson</h2>
+                       <p class="text-muted serif mb-0">Entrepreneur</p>
+                       <div class="text-center mt-3">
+                        <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                        <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                    </div>
+                  </figcaption>
+                </figure>
+               <div class="card-body">
+                <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Noster tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+               </div>
+      
+             </div>
+            </div>
+
+    </div>
+  </div>
+    <!-- fifth -->
+  <div class="carousel-item  col-lg-4 ">
+    <div class="row">
+       
+             <div class=" col-lg-4 mb-4 mb-lg-0">
+               <div class="card border-0 bg-cards ">
+                <figure class=" figureTestimonials pt-3">
+                  <img src="./images/testimonials-4.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                  <figcaption>
+                       <h2 class="text-white serif m-0 pt-1">Matt Brandon</h2>
+                       <p class="text-muted serif mb-0">Freelancer</p>
+                       <div class="text-center mt-3">
+                        <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                        <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                    </div>
+                  </figcaption>
+                </figure>
+               <div class="card-body">
+                <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Labore tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+             </div>
+       
+             </div>
+           </div>
+
+            <div class=" col-lg-4 mb-4 mb-lg-0">
+              <div class="card border-0 bg-cards">
+                <figure class=" figureTestimonials pt-3">
+                  <img src="./images/testimonials-5.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                  <figcaption>
+                       <h2 class="text-white serif m-0 pt-1">John Larson</h2>
+                       <p class="text-muted serif mb-0">Entrepreneur</p>
+                       <div class="text-center mt-3">
+                        <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                        <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                    </div>
+                  </figcaption>
+                </figure>
+              <div class="card-body">
+                <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.&nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+
+              </div>
+      
+            </div>
+          </div>
+
+          <div class=" col-lg-4 mb-4 mb-lg-0">
+             <div class="card border-0 bg-cards ">
+              <figure class=" figureTestimonials pt-3">
+                <img src="./images/testimonials-1.jpg" class="img-fluid imgTestimonial rounded-circle" alt="">
+  
+                <figcaption>
+                     <h2 class="text-white serif m-0 pt-1">Saul Goodman</h2>
+                     <p class="text-muted serif mb-0">CEO &amp; Founder</p>
+                     <div class="text-center mt-3">
+                      <span class="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                      <span class="stars"> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></span>
+                  </div>
+                </figcaption>
+              </figure>
+             <div class="card-body">
+                              <p class="card-text text-white fst-italic fw-semibold"> <i class="fa-solid fa-quote-left color-check fs-5"></i> &nbsp; Minum enim eram quae cillum dolore dolor amet nulla culpa multos dolor enim duis veniam ipsum anim  veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. &nbsp; <i class="fa-solid fa-quote-right color-check fs-5"></i> </p>
+             </div>
+       
+           </div>
+          </div>
+
+  </div>
+</div>
+
+
+
+
+        </div>   <!--carousel inner end-->
+    </div>    <!--carousel end-->
+</div>         <!--container end-->
+
+</section>
+
+
+<!-- Gallery Section -->
+<section class="cards py-5 pt-5" id="gallary">
+  <div class="container">
+
+    <div class="row " data-aos="fade-up" data-aos-duration="1500">
+         <p class="col-12 text-white text-opacity-75 fw-bold fst-normal " >GALLERY<span class="whyUs mb-1 ms-2"></span></p>
+         <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Some photos from Our Restaurant</p>
+    </div>
+
+    <div class="row row-cols-md-2 row-cols-lg-4 ">
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-1.jpg" class="img-fluid imgTransform borderImg borderTop border-top-0" alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-2.jpg" class="img-fluid imgTransform borderImg borderTop border-top-0 " alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-6.jpg" class="img-fluid imgTransform borderImg borderTop " alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-3.jpg" class="img-fluid imgTransform borderImg borderTop " alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-8.jpg" class="img-fluid imgTransform borderImg borderImg-3" alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-4.jpg" class="img-fluid imgTransform borderImg borderImg-3 " alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-5.jpg" class="img-fluid imgTransform borderImg borderImg-2 " alt=""></div>
+             <div class=" p-lg-0 p-md-0  overflow-hidden" data-aos="zoom-in" data-aos-duration="1000"> <img src="./images/gallery-7.jpg" class="img-fluid imgTransform borderImg borderImg-1 " alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- Chefs Section -->
+<section class="chefSection cards py-lg-5 pb-5 " id="chefs">
+  <div class="container pb-xl-5">
+    
+    <div class="row " data-aos="fade-up" data-aos-duration="1500">
+      <p class="col-12 text-white text-opacity-75 fw-bold fst-normal">CHEFS<span class="whyUs mb-1 ms-2"></span></p>
+      <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Our Proffesional Chefs</p>
+    </div>
+
+    <div class="d-flex justify-content-between flex-wrap">
+      
+      <div class=" mt-4 mt-lg-0   parent container-1" data-aos="zoom-in"  data-aos-duration="2000">
+        <img src="./images/chefs-1.jpg" class="img-fluid" alt="">
+
+        <div class="overlay">
+            <div class="text-1 text-white text-center">
+              <h2 class="fw-bolder fst-normal serif m-0   fs-4">Walter White</h2>
+              <p class="fw-bolder ">Master Chef</p>
+              <ul class="list-unstyled">
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1 icontranslate"><i class="text-white  fa-xl fa-brands fa-twitter socialIcons-1"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1 icontranslate"><i class="text-white  fa-xl fa-brands fa-facebook"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1 icontranslate"><i class="text-white  fa-xl fa-brands fa-instagram"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1 icontranslate"><i class="text-white  fa-xl fa-brands fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class=" mt-4 mt-lg-0  parent container-1" data-aos="zoom-in"  data-aos-duration="2000">
+        <img src="./images/chefs-2.jpg" class="img-fluid" alt="">
+
+        <div class="overlay">
+            <div class="text-1 text-white text-center">
+              <h2 class="fw-bolder fst-normal serif m-0 fs-4">Sarah Jhonson</h2>
+              <p class="fw-bolder">Patissier</p>
+              <ul class="list-unstyled">
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1"><i class="text-white fa-brands fa-xl fa-twitter"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1"><i class="text-white fa-brands fa-xl fa-facebook"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1"><i class="text-white fa-brands fa-xl fa-instagram"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="" class="socialIcons-1"><i class="text-white fa-brands fa-xl fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+
+      <div class="  mt-4 mt-md-4 mt-lg-0  parent container-1" data-aos="zoom-in"  data-aos-duration="2000">
+        <img src="./images/chefs-3.jpg" class="img-fluid" alt="">
+
+          <div class="overlay">
+            <div class="text-1 text-white text-center">
+              <h2 class="fw-bolder fst-normal serif m-0 fs-4">William Anderson</h2>
+              <p class="fw-bolder">Cook</p>
+              <ul class="list-unstyled">
+                   <li class="list-inline-item px-1 px-lg-2"><a href="#"><i class="text-white fa-brands fa-xl fa-twitter"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="#"><i class="text-white fa-brands fa-xl fa-facebook"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="#"><i class="text-white fa-brands fa-xl fa-instagram"></i></a></li>
+                   <li class="list-inline-item px-1 px-lg-2"><a href="#"><i class="text-white fa-brands fa-xl fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+           </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+<!-- Contact us section -->
+<section class="cards backgroundColor py-5" id="contact">
+<div class="container">
+
+  <div class="row " data-aos="fade-up" data-aos-duration="1500">
+    <p class="col-12 text-white text-opacity-75 fw-bold fst-normal">CONTACT<span class="whyUs mb-1 ms-2"></span></p>
+    <p class="h1 fw-bolder serif color-check pb-3 font-size fst-italic  pb-5">Contact Us</p>
+  </div>
+
+  <div class="row">
+  
+    <div class="col-lg-5">
+      <div class="container">
+       <div class="row"  data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-2 col-md-1 col-lg-2 col-xl-2 pe-lg-0  pb-lg-2">
+          <div class="location"><i class="fa-solid fa-location-dot fa-xl"></i></div>
+        </div>
+        <div class="col-10 col-md-11 ps-4 ps-md-3   col-lg-10 col-xl-10 ps-xl-0 newyork  pb-lg-2">
+          <h5 class="text-white fst-normal headingContact">Location:</h5>
+          <p class="dolerum fst-normal">A108 Adam Street, New York, NY 535022</p>
+        </div>
+      
+        <div class="col-2 col-md-1 col-lg-2 pb-lg-2">
+          <div class="location"><i class="fa-regular fa-clock fa-xl"></i></div>
+        </div>
+        <div class="col-10 col-md-11 ps-4 ps-md-3   col-lg-10 ps-xl-0 newyork pb-lg-2">
+          <h5 class="text-white fst-normal headingContact">Open Hours:</h5>
+          <p class="dolerum fst-normal">Monday-Saturday:11:00 AM - 2300 PM</p>
+        </div>
+      
+        <div class="col-2 col-md-1 col-lg-2 pb-lg-2" >
+          <div class="location"><i class="fa-solid fa-envelope fa-xl"></i></div>
+        </div>
+        <div class="col-10 col-md-11 ps-4 ps-md-3   col-lg-10 ps-xl-0 newyork pb-lg-2">
+          <h5 class="text-white fst-normal headingContact">Email:</h5>
+          <p class="dolerum fst-normal">info@example.com</p>
+        </div>
+
+        <div class="col-2 col-md-1 col-lg-2 pb-lg-2 ">
+          <div class="location"><i class="fa-solid fa-mobile-screen fa-xl"></i></div>
+        </div>
+        <div class="col-10 col-md-11 ps-4 ps-md-3   col-lg-10 ps-xl-0 newyork pb-lg-2">
+          <h5 class="text-white fst-normal headingContact">Call:</h5>
+          <p class="dolerum fst-normal">+1 5589 55488 55s</p>
+        </div>
+      </div> 
+      </div>  
+    </div>
+      
+     <div class="col-lg-7 pt-4 pt-lg-0">
+      <div class="container">
+        <div class="row gap-3"  data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md pe-md-0">
+               <input type="text" class="form-control rounded-0 bg-transparent inputBorder text-white  ps-2" placeholder="Your Name">
+          </div>     
+              
+          <div class="col-md ps-md-0">
+            <input type="text" class="form-control rounded-0 bg-transparent inputBorder text-white ps-2" placeholder="Your Email">
+         </div>     
+                
+         <div class="col-12">
+               <input type="text" class="form-control rounded-0 bg-transparent inputBorder text-white ps-2" placeholder="Subject">
+          </div>
+
+          <div class="col-12">
+               <textarea name=""  class="bg-transparent inputBorder text-white pt-2 ps-2 col-12 ps-2" id="" cols="30" rows="8" placeholder="Message"></textarea>
+          </div>    
+          <div class="text-center"> 
+               <button type="button" class="btn btn-border px-4 fw-semibold rounded-pill text-white btn-back-color">Send Message</button>
+          </div>  
+
+        </div>
+      </div>
+     </div>
+</div>
+	</div>
+</section>
+
+<footer>
+  <section class="cards pb-3 footerBorder">
+     <div class="container py-5">
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-lg-3">
+          <h1 class="pt-2  primary">Restaurantly</h1>
+          <address>
+            <p class="m-0 text-white fsize">A108 Adam Street</p>
+            <p class="text-white fsize">NY 535022, USA</p>
+          </address>
+          
+          <div class="">
+            <a href="tel:Phone: +1 5589 55488 55" class="text-white fsize">Phone: +1 5589 55488 55</a>
+          </div>
+          <div>
+            <a href="mailto:Email: info@example.com" class="text-white fsize">Email: info@example.com</a>
+          </div>
+
+          <menu class="d-flex pt-3 gap-2">
+            <li><a href="#"><span class="footerMedia"><i class="fa-brands fs-5 fa-twitter text-white"></i></span></a></li>
+            <li><a href="#"><span class="footerMedia"><i class="fa-brands fs-5 fa-facebook text-white"></i></span></a></li>
+            <li><a href="#"><span class="footerMedia"><i class="fa-brands fs-5 fa-instagram text-white"></i></span></a></li>
+            <li><a href="#"><span class="footerMedia"><i class="fa-brands fs-5 fa-linkedin text-white"></i></span></a></li>
+          </menu>
+        </div>
+        
+        <div class="pt-4 col-md-6 col-lg-2">
+             <menu>
+              <h6 class="text-white serif fw-bold pb-2">Useful Links</h6>
+              <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Home</a></li>
+              <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">About us</a></li>
+              <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Services</a></li>
+              <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Terms of service</a></li>
+              <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Privacy policy</a></li>
+             </menu>
+        </div>
+       
+        <div class="pt-4 col-md-6 col-lg-2">
+          <menu>
+            <h6 class="text-white serif fw-bold pb-2">Our Services</h6>
+            <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Web Design</a></li>
+            <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Web Development</a></li>
+            <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Product Management</a></li>
+            <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Marketing</a></li>
+            <li class="pb-2"><i class="fa-solid fa-chevron-right color-check ChevronSize"></i> <a href="#" class="text-white-2 fsize">Graphic Design</a></li>
+           </menu>
+        </div>
+
+        <div class="pt-4 col-md-6 col-lg-4">
+          <h6 class="serif text-white fw-bold pb-2">Our Newsletter</h6>
+          <p class="text-white fsize">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <div class="buttonInsideInput">
+             <input type="text" class="form-control rounded-pill  text-white inputBorder ps-3 backgroundColor">
+             <button type="button" class="btn btn-border rounded-pill btn-back-color text-white text-end px-4 py-2 btn-2">Subscribe</button>
+          </div>
+        </div>
+
+      </div>
+     </div>
+  </section>
+
+  <section class="bg-black py-lg-4 py-1">
+     <div class="container text-center py-4 py-lg-0 text-white">
+      <p class="m-0 pb-2">&copy; Copyright Restaurantly. All Rights Reserved</p>
+      <p class="m-0">Designed by <span class="color-check primary">Bhushan Sontakke</span></p>
+     </div>
+  </section>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+  </script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../02-Food-Project/Boostrap-files/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>

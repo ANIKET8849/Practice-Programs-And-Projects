@@ -1,0 +1,12 @@
+:root{
+    --skin-color:#ec1839;
+
+}
+.demo{
+    float: right;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+}

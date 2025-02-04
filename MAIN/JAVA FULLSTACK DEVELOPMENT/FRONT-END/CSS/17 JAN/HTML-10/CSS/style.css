@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 2px royalblue;
+
+} 
+P{
+    text-indent: 20px;
+    color: blue;
+    background-color: rgba(232, 155, 155, 0.941);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

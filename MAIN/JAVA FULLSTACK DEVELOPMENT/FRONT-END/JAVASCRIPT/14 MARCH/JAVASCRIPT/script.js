@@ -1,0 +1,1 @@
+document.getElementById("div1").innerHTML="<h2> WELCOME TO JAVASCRIPT </h2>";

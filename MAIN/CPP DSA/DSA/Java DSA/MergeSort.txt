@@ -1,0 +1,14 @@
+Here’s a step-by-step explanation of how merge sort works:
+
+Divide: Divide the list or array recursively into two halves until it can no more be divided.
+Conquer: Each subarray is sorted individually using the merge sort algorithm.
+Merge: The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged.
+
+
+*******The basic steps of a d&c algorithm can be boiled down to these three steps: ******
+
+1.  Divide and break up the problem into the smallest possible “subproblem”, of the exact same type.
+
+2.  Conquer and tackle the smallest subproblems first. Once you’ve figured out a solution that works, use that exact same technique to solve the larger subproblems — in other words, solve the subproblems recursively.
+
+3. Combine the answers and build up the smaller subproblems until you finally end up applying the same solution to the larger, more complicated problem that you started off with!

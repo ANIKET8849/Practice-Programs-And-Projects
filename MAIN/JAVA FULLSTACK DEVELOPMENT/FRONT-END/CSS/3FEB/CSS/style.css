@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    display: flex;
+}
+.div{
+    height: 250px;
+    width: 250px;
+    animation-name: firstanimation;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    margin: 100px;
+}
+.first{
+    /* height: 250px;
+    width: 250px; */
+    background-color: green;
+    /* margin: 100px; */
+}
+.second{
+    /* height: 250px;
+    width: 250px; */
+    background-color: blueviolet;
+    animation-name: secondanimation;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    /* margin: 100px; */
+}
+.third{
+    /* height: 250px;
+    width: 250px; */
+    background-color: green;
+    /* margin: 100px; */
+}
+@keyframes firstanimation{
+    0%{
+
+    }
+    50%{
+        border-radius: 50% 50% 0% 50%;
+        box-shadow: 20px 20px 0px black;
+        transform: rotate(270deg);
+        transform: translateY(200px);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+@keyframes secondanimation{
+    0%{
+
+    }
+    50%{
+        border-radius: 0% 50% 50% 50%;
+        box-shadow: -20px -20px 0px black;
+        transform: rotate(180deg);
+        transform: translateY(200px);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}

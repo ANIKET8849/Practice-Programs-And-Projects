@@ -1,0 +1,115 @@
+package QuickSort;
+
+public class QuickSort {
+	int partition(int arr[],int low,int high) {
+		int mid =(low+high)/2;
+		int pivot=arr[mid];
+		while(low<high) {
+			while (arr[low] < pivot) {
+			    low++;
+			}
+			 while (arr[high] > pivot) {
+	                high--;
+	            }
+			if (low<=high) {
+				int temp =arr[low];
+				arr[low]=arr[high];
+				arr[high]=temp;
+				low++;
+				high--;
+			}
+		}
+		
+		return low;
+	}
+	
+	void sort(int arr[],int l,int h) {
+		if (l<h) {
+			int pi=partition(arr, l, h);
+			sort(arr, l, pi-1);
+			sort(arr, pi, h);
+		}
+	}
+
+	void printarr(int arr[]) {
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+" ");
+		}
+	}
+	public static void main(String[] args) {
+		int arr[]= {3,7,44,3,8,5,4,55};
+		QuickSort qSort =new QuickSort();
+		qSort.sort(arr, 0, arr.length-1);
+		qSort.printarr(arr);
+	}
+
+}
+
+
+
+//package QuickSort;
+//
+//public class QuickSort {
+//
+//    // Partition method
+//    int partition(int arr[], int low, int high) {
+//        int mid = (low + high) / 2; // Choose the middle element as the pivot
+//        int pivot = arr[mid];
+//
+//        while (low <= high) {
+//            // Move pointers to find elements that need swapping
+//            while (arr[low] < pivot) {
+//                low++;
+//            }
+//            while (arr[high] > pivot) {
+//                high--;
+//            }
+//
+//            // Swap elements if low <= high
+//            if (low <= high) {
+//                int temp = arr[low];
+//                arr[low] = arr[high];
+//                arr[high] = temp;
+//                low++;
+//                high--;
+//            }
+//        }
+//
+//        return low; // Return the partition index
+//    }
+//
+//    // QuickSort method
+//    void sort(int arr[], int low, int high) {
+//        if (low < high) {
+//            // Partition the array and get the partition index
+//            int pi = partition(arr, low, high);
+//
+//            // Recursively sort the left and right partitions
+//            sort(arr, low, pi - 1);
+//            sort(arr, pi, high);
+//        }
+//    }
+//
+//    // Method to print the array
+//    void printArray(int arr[]) {
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//        System.out.println();
+//    }
+//
+//    // Main method
+//    public static void main(String[] args) {
+//        int arr[] = {3, 7, 44, 3, 8, 5, 4, 55};
+//
+//        QuickSort qSort = new QuickSort();
+//        System.out.println("Original Array:");
+//        qSort.printArray(arr);
+//
+//        // Perform QuickSort
+//        qSort.sort(arr, 0, arr.length - 1);
+//
+//        System.out.println("Sorted Array:");
+//        qSort.printArray(arr);
+//    }
+//}

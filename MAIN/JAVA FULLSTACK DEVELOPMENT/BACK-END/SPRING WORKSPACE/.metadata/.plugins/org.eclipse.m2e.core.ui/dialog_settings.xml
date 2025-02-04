@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\OneToMany\pom.xml"/>
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\OneToOneProject2\src\main\java\com\org\OneToOneProject2\App.java"/>
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\HibernateProject1\src\main\java\com\org\HibernateProject1\App.java"/>
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\SpringForm1\src\main\webapp\index.jsp"/>
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\SpringMVC"/>
+			<item value="D:\FULLSTACK DEVELOPMENT\BACK-END\SPRING WORKSPACE\Project1\src\main\java\com\org\Project1\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.org.CRUD"/>
+			<item value="com.org.ManyToMany"/>
+			<item value="com.org.OneToManyBank"/>
+			<item value="com.org.OneToMany"/>
+			<item value="com.org.OneToOneProject2"/>
+			<item value="com.org.OneToOne"/>
+			<item value="com.org.HibernateProject2"/>
+			<item value="com.org.HibernateProject1"/>
+			<item value="com.org.SpringForm1"/>
+			<item value="com.org.SpringForm"/>
+			<item value="com.org.FormMVC3"/>
+			<item value="com.org.FormMVC2"/>
+			<item value="com.org.FormMVC"/>
+			<item value="com.org.SpringMVC"/>
+			<item value="com.org.ConstructorBased"/>
+		</list>
+		<list key="groupId">
+			<item value="com.org"/>
+		</list>
+		<list key="artifactId">
+			<item value="CRUD"/>
+			<item value="ManyToMany"/>
+			<item value="OneToManyBank"/>
+			<item value="OneToMany"/>
+			<item value="OneToOneProject2"/>
+			<item value="OneToOne"/>
+			<item value="HibernateProject2"/>
+			<item value="HibernateProject1"/>
+			<item value="SpringForm1"/>
+			<item value="SpringForm"/>
+			<item value="FormMVC3"/>
+			<item value="FormMVC2"/>
+			<item value="FormMVC"/>
+			<item value="SpringMVC"/>
+			<item value="ConstructorBased"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    height: 900px;
+    width: 900px;
+    color: rgb(51, 64, 244);
+    font-size: 20px;
+    background-image: url(../CSS/IMAGES/download.jpg);
+    background-position: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

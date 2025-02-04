@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Jun 22 12:13:47 IST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\anike\\.m2\\repository\\org\\springframework\\spring-web\\5.3.21\\spring-web-5.3.21.jar=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SpringForm1\\WEB-INF\\lib\\spring-web-5.3.21.jar
+org.eclipse.jst.jee.server\:SpringForm=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SpringForm
+org.eclipse.jst.jee.server\:SpringMVC=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SpringMVC
+org.eclipse.jst.jee.server\:SpringForm1=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SpringForm1

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    background-color: grey;
+}
+.four{
+    background-color: lightgray;
+}
+.two{
+    height: 600px;
+    background-color: black;
+}
+.three{
+    height: 600px;
+    background-color: blueviolet;
+}
+.five{
+    background-color: brown;
+}
+.five{
+    height: 200px;
+    width: 300px;
+    background-color: burlywood;
+    margin: 15px;
+}

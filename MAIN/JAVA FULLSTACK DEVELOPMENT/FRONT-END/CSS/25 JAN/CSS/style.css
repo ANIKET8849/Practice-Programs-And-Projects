@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation bar */
+.nav{
+    background-color: black;
+    /* text-decoration: none; */
+}
+.nav p{
+    background-color: white;
+    /* letter-spacing: 5px; */
+    padding: 5px;
+    /* background-size: cover; */
+    /* margin: 0px 10px; */
+}
+.nav span{
+    float: right;
+}
+.nav a{
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    /* margin: 0px 10px; */
+}
+.nav a :hover{
+    background-color: lightgrey;
+    height: 24px;
+    width: 24px;
+}
+/* SECTION 1 */
+.section1{
+    /* text-align: center; */
+    background-color: white;
+    font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 35px;
+    font-weight: 300; */
+    padding: 48px 0px;
+}
+.section1 h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.section1 h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section1 b{
+    color: white;
+    background-color: black;
+    padding: 1px 2px;
+}
+.section2{
+    background-image: url(../IMAGES/hero\ image\ jane.jpg);
+    height: 1000px;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+.section2 p{
+    color: white;
+    /* font-family:'Oswald', sans-serif; */
+    font-size: 46px;
+    padding: 400px 10px 0px 36px;
+}
+.section2 span{
+     color: white;
+    /* font-family:'Oswald', sans-serif; */
+    font-size: 60px;
+    padding: 0px 10px 400px 36px;
+}
+.section2 button{
+    height: 46px;
+    width: 114px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    margin: 0px 10px 400px 36px;
+}
+.section2 button :hover{
+    color: black;
+    background-color: wheat;
+    /* opacity: 0.8; */
+}
+.section3{
+    width: 66.66%;
+    padding: 5px;
+}
+.section31{
+    height: 1200px;
+    line-height: 1.5;
+}
+.section3 h2{
+    font-family:'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+.section3 h3{
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.section3 span{
+    color: grey;
+    font-family:'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section3 img{
+    padding: 10px;
+}
+.section3 p{
+    text-align: justify;
+  
+}
+.section3 button{
+    height: 30px;
+    width: 125px;
+    text-align: center;
+    font-size: 15px;
+    /* padding: 10px; */
+    padding-bottom: 10px;
+}
+.section4{
+    float: right;
+    width: 33.34%;
+    padding: 5px;
+}

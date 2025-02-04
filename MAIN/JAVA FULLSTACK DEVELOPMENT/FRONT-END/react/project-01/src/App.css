@@ -1,0 +1,156 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root {
+    --orange: #ff1313;
+    --black: #111;
+    --white: #ffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Rajdhani", sans-serif;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation {
+    background-color: var(--black);
+}
+
+.orange {
+    border-bottom: 2px solid var(--orange);
+}
+
+.home {
+    background-image: url(../public/img/background/laptop3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-info h1,
+.about-info h2 {
+    font-size: 2.4rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.btn {
+    background: var(--orange);
+    font-family: "Rajdhani", sans-serif;
+    border: 1px solid #ff1313;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid #ff1313;
+
+}
+
+.footer {
+    background-image: url(../public/img/background/footer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img img {
+    height: 500px;
+    width: 100%;
+
+}
+
+.about-heading {
+    background-image: url(../public/img/background/heading-bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-bg {
+    background-image: url(../public/img/background/about.bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.Vedio-photo {
+    background-image: url(../public/img/background/cycle1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.play-icon i {
+    color: var(--white);
+    padding-top: 40px;
+}
+
+.play-icon i:hover,
+.name {
+    color: var(--orange);
+}
+
+.service-1 {
+    background-color: #f8f9fa;
+    ;
+}
+
+.service-1 i {
+    color: var(--black);
+}
+
+.service-1 i:hover {
+    color: var(--orange);
+}
+
+.social-icons i:hover {
+    color: var(--orange);
+}
+
+.constration {
+    background-image: url(../public/img/background/bg-1231.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.akanksha {
+    background: rgba(0, 0, 0, 0.7);
+    height: 80vh;
+}
+
+.big img:hover {
+    transform: scale(0.9);
+    transition: ease-in-out;
+    transition-duration: 0.8s;
+    top: 10px;
+}
+
+
+
+
+@media(min-width:768px) {
+    .home-info h1 {
+        font-size: 4.6rem;
+    }
+}

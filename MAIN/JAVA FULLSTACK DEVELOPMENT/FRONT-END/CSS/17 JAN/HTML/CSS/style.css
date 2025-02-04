@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    
+    font-size: 20px; color: rgb(119, 29, 237);
+    background-image: url(../CSS/IMAGES/ms\ dhoni.jpg);
+    height: 900px;
+    width: 900px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    /* background-position: 100px 100px; */
+}

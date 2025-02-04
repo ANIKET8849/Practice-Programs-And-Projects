@@ -1,0 +1,10 @@
+#div1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    margin: 50px;
+}
+.p2{
+    margin-left: 60px;
+}

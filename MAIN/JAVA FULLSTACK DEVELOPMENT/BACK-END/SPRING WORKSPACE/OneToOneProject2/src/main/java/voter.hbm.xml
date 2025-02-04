@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.org.OneToOneProject2.Voter" table = "Noter">
+      
+ 
+      
+      <id name = "vid">
+         
+      </id>
+      
+      <property name = "vname"/>
+      <property name = "vage"/>
+      
+   </class>
+</hibernate-mapping>

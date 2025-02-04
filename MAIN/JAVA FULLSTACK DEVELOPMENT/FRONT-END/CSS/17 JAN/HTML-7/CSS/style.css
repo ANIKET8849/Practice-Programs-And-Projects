@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+p{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../IMAGES/illustration/download\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+
+}

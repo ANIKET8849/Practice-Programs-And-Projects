@@ -1,0 +1,27 @@
+This C++ code uses the graphics.h library to create a simple animation of a helicopter flying across the screen. The code uses Turbo C++ graphics functions, which might not be supported in modern compilers due to their outdated nature.
+
+Here's an explanation of the main functions:
+
+Letters():
+
+This function displays a countdown animation by changing the text on the screen with a decreasing number.
+It uses different colors for each countdown phase (3, 2, 1).
+Go():
+
+This function is used to create the background for the animation. It draws a landscape with a road, garage, mountains, and a sun.
+It also draws the helicopter in a static position to simulate a brief pause before the helicopter starts moving.
+Helicopter():
+
+This function animates the helicopter's movement across the screen.
+It uses a loop to simulate the helicopter's motion by changing the position of its components (lines, arcs, circles, etc.) in each iteration.
+The helicopter's wings are animated to give the appearance of movement.
+The background is redrawn in each iteration to create a continuous animation effect.
+Close():
+
+This function displays a closing message at the end of the animation.
+main():
+
+Initializes the graphics mode using the initgraph function.
+Calls the Letters(), Go(), Helicopter(), and Close() functions to create the entire animation sequence.
+Waits for a key press before closing the graphics window using getch().
+It's important to note that this code relies on the Turbo C++ graphics library, which is quite old and not standard in modern C++ environments. Therefore, you might encounter compatibility issues if you try to run this code on a contemporary compiler. Additionally, using the graphics.h library is considered outdated, and modern graphics programming in C++ often involves other libraries like SDL, SFML, or OpenGL.

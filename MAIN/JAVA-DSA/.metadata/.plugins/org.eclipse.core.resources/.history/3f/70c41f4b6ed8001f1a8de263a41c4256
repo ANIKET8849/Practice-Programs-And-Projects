@@ -1,0 +1,27 @@
+package IfElse;
+
+import java.util.Scanner;
+
+public class ProfitLoss {
+
+	void ProfitLoss1() {
+		Scanner scanner =new Scanner(System.in);
+		System.out.println("Enter the Cost price : ");
+		int a=scanner.nextInt();
+		System.out.println("Enter the Selling price : ");
+		int b=scanner.nextInt();
+		
+		if (b>a) {
+			System.out.println(" Profit : "+(b-a));
+		}else if (a>b) {
+			System.out.println("Loss :"+(a-b));
+		}else {
+			System.out.println("No Profit And Loss.");
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

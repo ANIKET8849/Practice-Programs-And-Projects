@@ -1,0 +1,58 @@
+Aniket Dnyaneshwar Gholap
+SR.No.161,Hill View Tarase App.,Behind Datta Mandir,
+Bibwewadi Gaonthan, PUNE-411037.
+9112351916
+aniketgholap51@gmail.com
+
+Objective:
+Highly motivated and detail-oriented Full Stack Developer seeking an opportunity to apply acquired knowledge and skills in building innovative web applications. Strong foundation in front-end and back-end development, with a passion for problem-solving and continuous learning. Eager to contribute to a dynamic development team and make a positive impact.
+
+Education:
+- Diploma In Computer Engineering, [Sou. Venutai Chavan Polytechnic College,Sinhagad Institute,Vadgaon], [2021].
+- HSC (12th), [Vishwakarma Institute of Technology, Pune], [2019].
+- SSC (10th), [Vidya Vikas Vidyalaya,  Pune],[2017]. 
+
+Skills:
+- Programming Languages: Java,C/C++ Programming.
+- Front-End Development: HTML5, CSS3, Bootstrap, JavaScript, jQuery, React. 
+- Back-End Development: Java, SpringBoot, Spring, MySQL, JSON.
+- Databases: MySQL
+- Responsive Web Design
+- Problem-Solving and Troubleshooting
+- Strong Analytical and Communication Skills
+- Team Collaboration and Adaptability
+
+Projects:
+- [Project 1]: Developed a captivating restaurant web project, combining visually appealing design and seamless functionality with HTML, CSS, and Bootstrap, JavaScript, jQuery to provide an exceptional online dining experience.
+ ~ Link: file:///D:/FULLSTACK%20DEVELOPMENT/FRONT-END/PORTFOLIO/PORTFOLIO-2/PROJECTS/Food/index.html
+
+- [Project 2]: Created a mesmerizing wedding web project, blending elegant design and seamless functionality using HTML, CSS, and Bootstrap, JavaScript, jQuery to deliver an enchanting online experience for couples and guests.
+ ~ Link: file:///D:/FULLSTACK%20DEVELOPMENT/FRONT-END/PORTFOLIO/PORTFOLIO-2/PROJECTS/Wedding/index.html
+
+- [Project 3]: Built an immersive cars showroom web project, integrating engaging design and intuitive features using HTML, CSS, and Bootstrap, JavaScript, jQuery to offer an immersive digital experience for car enthusiasts.
+ ~ Link: file:///D:/FULLSTACK%20DEVELOPMENT/FRONT-END/PORTFOLIO/PORTFOLIO-2/PROJECTS/PROJECT-5/index.html
+
+- [Project 4]: Crafted a responsive yoga web project, combining fluid design and interactive features using JavaScript, HTML, CSS, and Python, to promote wellness and engage users in a transformative online experience.
+ ~ Link: file:///D:/FULLSTACK%20DEVELOPMENT/FRONT-END/PORTFOLIO/PORTFOLIO-2/PROJECTS/Yoga/index.html
+
+Technical Experience:
+- Course Projects, [University/Online Courses], [Dates]
+  - Implemented various web applications and projects using different technologies, gaining hands-on experience in full-stack development.
+  - Worked on individual and group projects, demonstrating strong problem-solving and teamwork skills.
+
+Certifications:
+- FullStack Developer, Envision Computer Training Institute (ECTI), 2023.
+- Digital Marketing Fundamentals, Indian Institute of Digital Education (IIDE),2022.
+
+Additional Skills:
+- Proficient in using development tools like Visual Studio Code, Eclipse, Postman, Git, and MYSQL.
+- Familiarity with Agile/Scrum methodologies and collaborative tools like JIRA or Trello.
+
+Languages:
+- English (Fluent)
+- Marathi (Fluent)
+- Hindi (Fluent)
+
+References:
+- You Can Explore My Portfolio On: 
+  file:///D:/FULLSTACK%20DEVELOPMENT/FRONT-END/PORTFOLIO/PORTFOLIO-2/INDEX.html

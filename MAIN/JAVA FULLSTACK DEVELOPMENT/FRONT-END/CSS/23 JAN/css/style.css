@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 200px;
+    display: inline;
+    list-style: none;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.nav a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.nav a:hover{
+    background-color: lightgrey;
+}
+.nav li{
+    text-decoration: none;
+    float: right;
+    list-style: none;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    /* padding: 10px; */
+}
+.section1{
+    height: 800px;
+    width: 1600px;
+    background-image: url(../css/IMAGES/hamburger.jpg);
+}
+.section1 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: darkslategrey;
+    letter-spacing: 3px;
+    padding:  700px 700px 30px 30px;
+}
+.section2{
+    margin: 50px;
+}
+.section2-image{
+    display: inline-block;
+}
+.section2-div2{
+    height: 750px;
+    width: 600px;
+  /* display: inline-block; */
+  float: right;
+  margin-right: 150px;
+}
+.section2-div2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 40px 120px;
+}
+.section2-div2 h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+   padding: 40px 120px;
+}
+.section2-div2 p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px;
+}
+.section2-div2-span{
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    padding: 30px;
+}
+/* SECTION3 */
+.section3-div1{
+    height: 750px;
+    width: 600px;
+  display: inline-block;
+  line-height: 2;
+  /* float: left; */
+  /* margin-left: 150px; */
+  padding-left: 120px;
+}
+.section3-div2{
+    height: 750px;
+    width: 600px;
+    float: right;
+    /* line-height: 1.5; */
+    margin-right: 145px;
+}
+.section3-div1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: center; */
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding: 40px 150px;
+}
+.section3-div1 h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.section3-div1 p{
+    color: gray;
+}
+.section4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
+    text-align: justify;
+    line-height: 2.5;
+    margin: 80px 150px;
+}
+.section4 h2{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    /* margin: 10px 0px; */
+    padding-bottom: 50px;
+}
+.section4 span{
+    font-size: 18px;
+    color: lightslategray;
+    /* padding: 6px 0px; */
+    margin: 10px 0px;
+}
+.section4 input{
+    height: 34px;
+    width: 760px;
+    margin: 6px;
+}
+.section4 button{
+    height: 30px;
+    width: 122px;
+    background-color: lightcyan;
+    text-align: center;
+}
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* background-color: grey; */
+    height: 130px;
+    width: 100%;
+    background-image: url(../css/IMAGES/footer\ img.webp);
+    padding-top: 50px;
+    /* height: 100%;
+    width: 100%; */
+    /* margin: 60px 500px; */
+}

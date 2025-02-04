@@ -1,0 +1,18 @@
+.paragraph{
+    
+    color: rgb(54, 198, 242);
+    font-size: 15px;
+    background-image: url(../IMAGES/illustration/download\ \(1\).jpg);
+    background-size: 100% 100%;
+   /* background-attachment: scroll;
+   background-position: 100% 100%;
+    background-repeat: no-repeat; */
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.heading{
+    color:blueviolet;
+    font-size: 20px;
+    text-align: center;
+}

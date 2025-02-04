@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.org.OneToManyBank.Person" table = "Person">
+      
+      
+      <id name = "pid">
+
+      </id>
+      
+      <property name = "pname"/>
+   
+   <set name="bank" cascade="all">
+   		<key column="pid"></key>
+   		<one-to-many class="com.org.OneToManyBank.Bank"></one-to-many>
+   </set>
+      
+      
+   </class>
+</hibernate-mapping>

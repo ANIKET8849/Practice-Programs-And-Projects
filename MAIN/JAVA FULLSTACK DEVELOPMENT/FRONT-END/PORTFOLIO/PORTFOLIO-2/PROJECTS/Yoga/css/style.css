@@ -1,0 +1,1308 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Sono&family=Ubuntu&display=swap');
+:root{
+    --headerColor:#FAF6F2;
+    --MonFri:#959995;
+    --btnBluee:#815C9E;
+    --white:#fff;
+    --black:#000;
+    --pink:#F56C6D;
+    --footerColor:#221C25;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+/* mobile view-------------------------------------------- */
+.header{
+    background-color: var(--headerColor);
+    padding: 10px 0;
+}
+.Anchor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.a-1,.a-2,.menu{
+    font-size: 12px;
+}
+.a-1,.a-2{
+    padding-bottom: 8px;
+}
+.HeaderSocialMedia{
+    color: var(--MonFri);
+}
+.SocialMediaMenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.TwittrInsta{
+    color: var(--MonFri);
+}
+.logo{
+    width: 50%;
+}
+.logoDiv{
+    text-align: center;
+    padding-top: 10px;
+}
+.navigationBar{
+    display: none;
+}
+.MobileNav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-top:12px;
+    padding-bottom:20px ;
+}
+.li-1{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    background-color: var(--btnBluee) ;
+    height: 30px;
+    width: 45%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: 12px;
+}
+.btnColor{
+    color:var(--white) ;
+}
+.Black{
+    color: var(--black);
+}
+.Black:hover{
+    color:var(--pink);
+}
+.btn:hover{
+    background-color:var(--pink) ;
+}
+.experience,.Keeping{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Keeping{
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+.experience{
+    padding-top: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+}
+.Keeping-1{
+    font-family: serif;
+    color: var(--white);
+}
+.experience-1{
+    color: var(--white);
+}
+.MakeAnAppointment{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.MakeAnAppointment-1{
+    display: inline-block;
+    width: 45%;
+    height:35px ;
+    background-color: var(--pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 12px;
+}
+.MakeAnAppointment-1:hover{
+    background-color: var(--btnBluee);
+}
+.Img-0{
+    border-radius: 50%;
+    width: 15%;
+    padding-top:50px ;
+}
+.figureAndFigcaption {
+    text-align: center;
+    background-color: var(--headerColor);
+    padding-bottom: 50px;
+}
+.WhatWeAre{
+    color:var(--MonFri);
+    font-family: serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .OurMainServices{
+    font-size:28px;
+    font-family: serif;
+}
+.Img-2{
+    width:25%;
+    border: 1px solid gray;
+    border-radius: 80%;
+}
+.figure-1{
+   padding-top: 30px;
+}
+.YourCources{
+    font-size:20px ;
+    font-family: serif;
+    padding: 8px 0;
+}
+.Lorem{
+    line-height: 1.5;
+    font-size: 15px;
+    color: var(--MonFri);
+}
+.OurClassesDiv{
+  text-align: center;
+}
+.figure-3{
+    padding: 30px;
+}
+.img-3{
+    width: 70%;
+    border-radius: 50%;
+}
+.Time{
+    color: var(--MonFri);
+    font-size: 12px;
+}
+.MON{
+  font-size: 12px;
+  font-weight: 300;
+  font-family: serif;
+  padding-bottom: 5px;
+}
+.Private{
+    font-size:20px ;
+    padding: 5px;
+    font-family: serif;
+}
+.img-4{
+    border-radius: 100%;
+}
+.heroSection{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/stephanie-greene-rMzg35fH6K0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:70% 0;
+    background-size: cover;
+}
+.innerFooter{
+    text-align: center;
+}
+.FooterMenu{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.FooterMedia{
+    color: var(--white);
+    border-radius: 50%;
+}
+.FooterHomeAbout{
+    color:var(--MonFri);
+}
+.FooterAxiom{
+    color:var(--MonFri);
+    font-size: 14px;
+    padding: 0 6px 70px;
+    line-height: 2;
+}
+.Footer{
+    background-color:var(--footerColor);
+}
+.footerLogo{
+    width: 40%;
+    padding: 20px;
+}
+.footerLogoDiv{
+    padding: 50px 0 25px;
+}
+.FooterSocialMediaMenu{
+    display: flex;
+    justify-content: center;
+}
+.FooterHomeAbout{
+    padding: 0px 17px;
+    font-size: 14px;
+}
+.li-Footer{
+    padding: 8px 0;
+}
+.li-FooterInsta{
+    padding: 20px 14px; 
+    border-radius: 50%;
+}
+.services-1{
+    padding: 50px 0;
+    background-color:var(--headerColor)
+}
+.ourYoga{
+    font-size: 12px;
+    color: var(--pink);
+    font-family: serif;
+    padding-left: 10px;
+}
+.servicesAndPrincing{
+    font-size: 29px;
+    font-family: serif;
+    padding: 10px 0 20px;
+    padding-left: 10px;
+}
+.sedUt{
+    font-size: 13px;
+    color: var(--MonFri);
+    line-height: 1.7;
+    padding-left: 10px;
+}
+.StandardDiv{
+    padding: 20px 10px;
+    line-height: 2;
+}
+.plan{
+    font-size: 15px;
+    font-family: serif;
+}
+.Week,.perWeek{
+    font-size: 12px;
+}
+.Standard{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(223, 220, 220);
+}
+.Week{
+    color: var(--pink);
+    font-size: 14px;
+}
+.perWeek{
+    color: var(--MonFri);
+}
+.ViewMore{
+    color: var(--black);
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    background-color: var(--white);
+    border-radius: 20px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ViewMoreDiv{
+    padding-left: 10px;
+    font-weight:600;
+}
+.YogaOuterDiv-1{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.YogaOuterDiv{
+ width: 50%;
+}
+.heightImg{
+ margin-bottom: -4px;
+}
+
+
+.pink{
+    background-color: var(--pink);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blue{
+    background-color: var(--btnBluee);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video{
+  height:45vh;
+}
+.Keeping{
+    padding-top: 100px;
+}
+.Keeping-1{
+    font-size: 19px;
+    font-weight:600;
+}
+.MobileNav{
+    font-size: 20px;
+  }
+.UTenim{
+    display: none;
+  }
+.ourYogaStudio{
+    color: var(--pink);
+    font-size: 12px;
+    font-family: serif;
+   }
+.Reasons{
+    font-size: 28px;
+    font-family: serif;
+    padding: 15px 0 25px;
+  }
+.SedUt{
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--MonFri);
+}
+.MoreServices{
+    display: inline-block;
+    width:45%;
+    height: 35px;
+    font-size:11px;
+    color: var(--white);
+    border-radius: 40px;
+    background-color: var(--btnBluee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MoreServices:hover{
+    background-color: var(--pink);
+}
+.MoreServices-1{
+    padding: 20px 0 60px;
+ }
+.PracticeYoga-1{
+    padding: 0 20px;
+ }
+ .studio{
+    padding-top: 40px;
+ }
+.topdiv{
+    height: 35px;
+    width: 35px;
+    background-color: var(--pink);
+    border-radius: 50%;
+    position: fixed;
+    right:15px;
+    bottom: 15px;
+}
+.Aroma{
+    font-size: 12px;
+    color: var(--MonFri);
+    font-family: serif;
+}
+.Manduka{
+    font-size: 17px;
+    font-family: serif;
+    padding-top: 20px;
+}
+.Numbers{
+    font-size: 17px;
+    color: var(--pink);
+    padding: 20px;
+}
+.productBtn{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    color: var(--black);
+}
+
+.productBtn:hover{
+   background-color: var(--pink);
+   color: var(--white);
+}
+.Figure-8{
+    text-align: center;
+}
+
+.moreAndMore{
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    background-color: var(--btnBluee);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    color: var(--black);
+}   
+.allFigures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        
+}
+.figcaption{
+    text-align: center;
+}
+.FigDiv-1{
+    width: 80%;
+    background-color: var(--white);
+}
+.allFigures{
+    display: flex;
+    row-gap: 25px;
+}
+.ourProducts{
+    background-color: var(--headerColor);
+}
+.productView{
+   display: flex;
+   justify-content: center;
+   padding: 30px 0 45px;
+   border-top: 1px solid rgb(228, 219, 219) ;
+}
+.more{
+    display: inline-block;
+    width: 170%;
+    padding: 0 10px;
+    height: 30px;
+    background-color: var(--btnBluee);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    color: var(--black);
+    color: var(--white);
+}
+.moreMore{
+    /* padding-bottom: 60px; */
+    display: flex;
+    justify-content: center;
+}
+.more:hover{
+    background-color: var(--pink);
+}
+.Figure-8{
+    padding-bottom: 60px;
+}
+.FooterHomeAbout:hover{
+    color: var(--white);
+}
+.ViewMore:hover{
+    color: var(--pink);
+}
+.socialMediaRadius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(194, 186, 186,0.6);
+    border-radius: 50%;
+}
+.socialMediaRadius:hover{
+    background-color:rgba(101, 93, 93, 0.3);
+}
+
+.HeaderSocialMedia-1:hover{
+    color: var(--pink);
+}
+.TwittrInsta-1:hover{
+    color: var(--pink);
+}
+.Manduka:hover{
+    color: var(--pink);
+}
+
+.termsAndpolicy:hover{
+    color: var(--white);
+}
+.quatepic{
+    width: 20%;
+    position: relative;
+}
+.quateimg{
+    border-radius: 50%;
+
+}
+.quate{
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    left: 20px;
+    background-color: var(--pink);
+    width:25px;
+    height:25px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.whiteColor{
+    color: var(--white);
+}
+.quates-1{
+    background-color: var(--headerColor);
+    /* text-align: center; */
+
+}
+.aligntext{
+   width: 100%;
+   padding-bottom: 20px;
+   text-align: center;
+}
+.center-1{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-bottom: 30px;
+  
+}
+.mySecondhome{
+    font-size:15px;
+    color: var(--MonFri);
+    font-family: serif;
+    line-height: 1.5;
+    padding: 50px 30px;
+    text-align: center;
+}
+.customer{
+    font-size: 12px;
+    color: var(--MonFri);
+    padding-top: 5px;
+}
+.Stacey{
+    font-family: serif;
+    font-size: 18px;
+}
+.img-3:hover{
+    filter: saturate(200%);
+}
+.over:hover{
+    filter: saturate(200%);
+
+}
+.quateimg:hover{
+    filter: saturate(200%);
+
+}
+.topfont{
+    color: var(--white);
+    font-size: 25px;
+}
+.topdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHeightVideo{
+   
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------{------------------------------------------- */
+ @media (min-width: 375px)
+ {
+     .btn{
+        width: 36%;
+     }
+     .a-1{
+        padding: 5px 16px 12px;
+     }
+     .footerLogo{
+        width: 36%;
+     }
+     .MakeAnAppointment-1{
+        width: 40%;
+     }
+     .TwittrInsta,.HeaderSocialMedia
+     {
+        font-size: 13px;
+    }
+.video{
+    height:55vh;
+  }
+.heroSection{
+  height: 70vh;
+}  
+.Keeping{
+    padding-top: 120px;
+}
+.Keeping-1{
+   font-size: 22px;
+}
+.MobileNav{
+    font-size: 22px;
+  }
+  .IconSize{
+     padding: 0 12px;
+}
+.a-1,.a-2{
+    padding-bottom: 8px;
+}
+.header{
+    padding-top:0px;
+}
+.btn{
+    width: 40%;
+}
+.Lorem{
+    padding: 0 30px;
+}
+.quate{
+    left: 25px;
+}
+}
+/* ------------------------------------------- */
+ @media (min-width:425px){
+    .Keeping-1{
+        font-size: 25px;
+     }
+    .a-1,.a-2{
+        padding: 0px 20px 12px
+     }
+     .btn{
+        width: 36%;
+     }
+     .footerLogo{
+        width: 38%;
+     }
+     .MakeAnAppointment-1{
+        width: 36%;
+     }
+     .Lorem{
+        padding: 0 10px;
+     }
+     .TwittrInsta,.HeaderSocialMedia{
+        font-size: 14px;
+    }
+   .ViewMore{
+        font-size: 12px;
+        font-weight:600;
+    }
+    .video{
+        height:65vh;
+      }
+      .heroSection{
+        height: 80vh;
+      }  
+      .MobileNav{
+        font-size: 26px;
+      }
+      .topdiv{
+        height: 40px;
+        width: 40px;
+    }
+    .MoreServices{
+        width: 32%;
+        height: 30px;
+    }
+    .header{
+        padding-top:5px;
+    }
+    .Lorem{
+        padding: 0 50px;
+    }
+    .quate{
+        left: 25px;
+    }
+    .quatepic{
+        width: 15%;
+    }
+    .quate{
+        width:20px ;
+        height: 20px;
+    }
+}
+/* tablet view -------------------------------------------*/
+@media (min-width:768px)
+{
+    .topdiv{
+        height: 45px;
+        width: 45px;
+    }
+.header{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 0;
+   padding-top: 4px;
+}
+.innerHeader{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.Anchor{
+    display: flex;
+    justify-content: left;
+    width:50% ;
+}
+.menu,.a-1,.a-2{
+    font-size: 18px;
+}
+.MobileNav{
+    padding-top: 30px;
+}
+.li-1{
+    padding-right: 25px;
+    font-size: 22px;
+}
+.btn{
+    height: 40px;
+    width: 25%;
+    border-radius: 30px;
+    padding:0 ;
+    font-size: 14px;
+}
+.logo{
+width: 30%;
+}
+.Keeping{
+    padding-top: 170px;
+}
+.Keeping-1{
+    font-size: 40px;
+}
+.experience-1{
+    font-size: 16px;
+}
+.TwittrInsta,.HeaderSocialMedia{
+    font-size: 15px;
+}
+.MakeAnAppointment-1{
+    height: 45px;
+    width: 22%;
+    font-size: 13px;
+    border-radius: 50px;
+}
+.Img-1,.Img-0{
+    width: 7%;
+}
+.WhatWeAre{
+    font-size: 16px;
+}
+.OurMainServices{
+    font-size: 28px;
+}
+.figureAndFigcaption{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.figure-1{
+    width: 40%;
+}
+.Figure-0{
+    width: 100%;
+}
+.YourCources{
+    font-size: 20px;
+}
+.Img-2{
+    width: 35%;
+}
+.Lorem{
+    font-size: 14px;
+}
+.OurClassesDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.figure-3{
+    width: 50%;
+}
+.img-3{
+    width: 60%;
+}
+.Private{
+    font-size: 20px;
+}
+.MON{
+    font-size: 14px;
+}
+.Keeping-1{
+    font-size: 45px;
+    padding-top: 0;
+}
+.Time{
+    font-size: 12px;
+}
+.footerLogo{
+    width: 20%;
+}
+.FooterSocialMediaMenu{
+    padding: 20px 0;
+}
+.Ut{
+    display: block;
+    color: var(--white);
+}
+
+.services-1{
+    padding: 70px 100px;
+}
+.ourYoga{
+    font-size: 14px;
+}
+.servicesAndPrincing{
+    font-size: 32px;
+}
+.sedUt{
+    font-size: 12px;
+}
+.ViewMore{
+    font-size: 13px;
+    width: 30%;
+    font-weight:600;
+}
+.Ut{
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+}
+.blue,.pink{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height:90vh;
+  }
+  .heroSection{
+    height: 90vh;
+  }
+  .logoDiv{
+         padding-top: 20px;
+  }
+  .MobileNav{
+    padding-bottom: 30px;
+    }
+  .IconSize{
+    font-size: 40px;
+  }
+  .PracticeYoga,.PracticeYoga-1{
+    width: 50%;
+   }
+  .studio{
+    display: flex;
+  }
+  .allFigures{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 25px;
+     
+      justify-content: center;
+    }
+    .FigDiv-1{
+      width: 40%;
+   }
+  .Figure-8{
+    padding-bottom: 80px;
+  }
+  .moreMore{
+    padding-top: 30px;
+  }
+  .more{
+    height: 35px;
+    width: 145px;
+  }
+  .a-1,.a-2{
+    padding-bottom: 5px;
+  }
+  .quate{
+    left: 28px;
+}
+.quatepic{
+    width: 10%;
+}
+.quate{
+    width:25px ;
+    height: 25px;
+}
+.mySecondhome{
+   padding: 50px 50px;
+}
+.moreMore{
+    padding-bottom: 25px;}
+}
+/* laptop view--------------------------------------- */
+@media (min-width:992px)
+{
+.header{
+       padding: 10px 0;
+    }
+.topdiv{
+        height: 45px;
+        width: 45px;
+        right: 20px;
+        bottom: 20px;
+    }
+    .innerHeader{
+        width: 88%;
+    }
+    .menu{
+       width: 50%;
+        display: flex;
+        justify-content: right;
+        font-size: 13px;
+    }
+    .Anchor{
+        display: flex;
+        justify-content: left;
+        width:70% ;
+    }
+    .a-1,.a-2{
+        padding: 0px;
+        font-size: 13px;
+    }
+    .a-1{
+        padding-right: 30px;
+    }
+    .MobileNav{
+        display: none;
+    }
+   .logoDiv{
+        padding: 0px;
+    }
+    .navigationBar{
+        display: block;
+    }
+    .AllMenu{
+        display: flex;
+        list-style-type: none;
+   }
+    .Black{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .MainNav{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .InnerNavDiv{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+}
+    .HomeFeatures{
+        padding-right: 25px;
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        display:inline-block;
+        height:40px;
+        border-radius: 20px;
+        background-color: var(--btnBluee);
+        padding:0px;
+        padding:0 12px ;
+        display: flex;
+        align-items: center;
+        color: var(--white);
+        font-size: 14px;
+   }
+    .button:hover{
+        background-color: var(--pink);
+    }
+
+    .Black:hover{
+        color: var(--pink);
+    }
+    .home{
+        color: var(--pink);
+    }
+    .logo{
+        width: 120%;
+    }
+    .heroSection{
+        height: 110vh;
+    }
+    .TwittrInsta,.HeaderSocialMedia{
+        font-size: 12px;
+    }
+    .MakeAnAppointment-1{
+        width: 18%;
+        font-size: 14px;
+    }
+    .Img-1{
+        width: 10%;
+    }
+    .OurMainServices{
+        font-size: 30px;
+    }
+   .Lorem,.Time{
+    font-size:12px;
+   }
+    .figure-1{
+        width: 22%;
+    }
+    .Img-0{
+        width: 6%;
+    }
+    .YourCources{
+        font-size: 18px;
+    }
+    .Keeping-1{
+        font-size: 45px;
+    }
+    .Keeping{
+        padding-top: 250px;
+    }
+    .MainNav{
+        background-color: var(--white);
+        position: sticky;
+        top: 0;}
+   .img-3{
+        width: 60%;}
+    .Figure-0{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .MON{
+        font-size: 12px;
+    }
+    .figure-3{
+        width: 25%;}
+    .Private{
+        font-size: 18px;}
+   .Black{
+        font-size: 14px;
+    }
+    .footerLogo{
+        width: 15%;}
+    .Ut{
+      font-size: 15px;}
+   .ViewMore{
+        width: 22%;
+        height: 35px;
+        font-weight:600;}
+     .Standard{
+        padding: 13px 0;
+    }
+    .Week,.plan{
+        font-size: 17px;}
+    .perWeek{
+        font-size: 16px;
+    }
+   .plan{
+    font-weight: 100;
+    color: rgb(57, 56, 56);
+   }
+  .Keeping{
+    padding-top: 200px;}
+  .YogaOuterDiv{
+    width: 25%;
+  }
+  .Reasons{
+    font-size: 34px;}
+   .MoreServices{
+    height: 35px;
+    width: 30%;
+  }
+  .PracticeYoga-1{
+    padding-top:50px ;}
+  .FigDiv-1{
+    width: 20%;}
+  .allFigures{
+    display: flex;
+    column-gap: 15px;
+}
+.quate{
+    left: 25px;
+}
+.quatepic{
+    width: 7%;
+}
+
+.mySecondhome{
+   padding: 50px 170px;
+  
+}
+.topfont{
+    color: var(--white);
+    font-size: 30px;
+}
+}
+/* --------------------------------- */
+@media (min-width:1200px)
+{
+    .moreMore{
+        width: 100%;
+    }
+    .quate {
+        left: 32px;
+    }
+}
+/* -------------------------------------------- */
+@media (min-width:1440px)
+{
+    .quate {
+        left: 25px;
+    }
+.experience-1{
+    font-size: 20px;
+}
+.Keeping-1{
+    font-size: 60px;
+}
+.Keeping{
+    padding-top: 250px;
+}
+.MakeAnAppointment-1{
+    width: 14%;
+    font-size: 16px;
+}
+.TwittrInsta,.HeaderSocialMedia{
+    font-size: 14px;
+}
+.Lorem{
+    font-size: 15px;
+}
+.Private,.YourCources{
+    font-size: 20px;
+}
+.Time{
+    font-size: 16px;
+}
+.Black{
+    font-size: 17px;
+}
+.footerLogo{
+    width: 11%;
+}
+.Img-0{
+    width: 5%;
+}
+.ServicesAndVideoDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-1{
+    width: 100%;
+    padding: 80px 60px;
+}
+
+.plan{
+    font-size: 18px;
+}
+.Week{
+    
+    font-size: 18px;
+}
+.perWeek{
+    font-size: 17px;
+}
+.sedUt{
+    font-size: 15px;
+}
+
+.ViewMore{
+    width: 16%;
+    height: 40px; 
+}
+.YogaOuterDiv-1{
+    width: 100%;
+}
+.YogaOuterDiv {
+    width: 25%;
+}
+.heroSection{
+        height: 130vh;
+    }
+
+.PracticeYoga-1{
+        width: 40%;
+        padding-left: 80px;
+        padding-top: 70px;
+    }
+.SedUt{
+        font-size: 16px;
+}
+.MoreServices{
+    font-size: 13px;
+   }
+.ourYogaStudio{
+    font-size: 14px;
+   }
+.topdiv{
+    height: 55px;
+    width: 55px;
+    right: 20px;
+    bottom: 20px;
+}
+.moreMore{
+    width: 100%;
+}
+.Figure-8{
+    padding-bottom: 100px;
+}
+
+.quatepic{
+    width: 5%;
+}
+.mySecondhome{
+    padding: 50px 200px;
+    font-size: 18px;
+}
+.services-1{
+    padding: 80px 160px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

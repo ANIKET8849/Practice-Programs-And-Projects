@@ -1,0 +1,461 @@
+:root{
+    /* BACKGROUND COLORS  */
+
+    --01--:#FFFFFF;
+    --02--:#FFFFFF0F;
+    --03--:#F6F1EA;
+    --04--:#7AC64D;
+    --05--:#C46B48;
+    --06--:#727272;
+    --07--:#3A3A3A;
+    --08--:#333333;
+    --09--:#202738;
+    --10--:#222222;
+    --11--:#1E1E1E;
+
+
+        /* COLORS  */
+    --21--:#FFFFFF;
+    --22--:#E9E3D9;
+    --23--:#C3D4E4;
+    --24--:#9B9B9B;
+    --25--:#928888;
+    --26--:#C46B48;
+    --27--:#337AB7;
+    --28--:#74706B;
+    --29--:#636363;
+    --30--:#333333;
+    --31--:#202738;
+    --32--:#2926214D;
+    --33--:#212529;
+    --34--:#0F172A;
+    --35--:#000000;
+
+
+    /* BORDER COLORS  */
+    --31--:#FFFFFF17;
+    --31--:#C46B48;
+    --31--:#7D605433;
+    --31--:#545454;
+    --31--:#444444;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 600px;
+    color: var(--01--);
+    background-image: url(../IMAGES/10021.jpg);
+    background-size: cover;
+    padding: 100px 30px;
+}
+.header h1{
+    font-family: "Shippori Mincho",serif;
+    font-size: 40px;
+    /* text-align: center; */
+    margin-bottom: 25px;
+}
+.header span{
+    color: var(--05--);
+}
+.header p{
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 280px;
+    margin-bottom: 30px;
+    /* margin: 0px 820px 0px 0px; */
+}
+.header button{
+    height: 60px;
+    width: 160px;
+    font-size: 18px;
+    color: var(--01--);
+    background-color: var(--26--);
+    border: 1px solid var(--26--);
+}
+.header button:hover{
+    height: 63px;
+    width: 163px;
+    color: var(--05--);
+    background: transparent;
+}
+.section1{
+    padding: 50px 25px;
+}
+.section1 h2{
+    color: var(--09--);
+    font-family: "Shippori Mincho",serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    /* width: 450px; */
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.section1 h3{
+    color: var(--29--);
+    font-family: "Shippori Mincho",serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    /* width: 530px; */
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.section1 h4{
+    color: var(--26--);
+    font-family: "Shippori Mincho",serif;
+    font-size: 24px;
+    /* font-weight: 600; */
+    line-height: 1.4;
+    margin-bottom: 17px;
+}
+.section1 p{
+    color: var(--09--);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.section1 span{
+    font-family: "Shippori Mincho",serif;
+    color: var(--29--);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.section1 div{
+    /* height: 150px; */
+    /* box-sizing: border-box; */
+    /* width: 200px; */
+    margin: 20px;
+}
+.section2{
+    height: 160px;
+    width: 100%;
+    background-image: url(../IMAGES/10005.jpg);
+    background-size: 100% 100%;
+    /* margin: 20px 0px; */
+}
+.section3{
+    margin: 0px 2px;
+}
+.section3 div{
+    margin: 50px 0px;
+}
+.section3 h2{
+    font-family: "Shippori Mincho",serif;
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section3 h3{
+    color: #636363;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+    /* box-sizing: border-box; */
+    /* padding: 0px 3px; */
+}
+.section3 h4{
+    color: #C46B48;
+    font-family: "Shippori Mincho",serif;
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 26px;
+}
+.section3 p{
+    font-family: "Chivo",sans-serif;
+    color: #636363;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1.4;
+}
+.section3 span{
+    color: #C46B48;
+    font-family: "Chivo",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+}
+.section3 h5{
+    color: #636363;
+    font-family: "Chivo",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.section4{
+    background-color: var(--05--);
+    margin-bottom: 40px;
+}
+.section4 img{
+    margin: 10px 10px 10px 110px;
+}
+.section4 p{
+    text-align: center;
+    color: var(--01--);
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 20px 24px 20px;
+}
+/* .section5{
+    margin: 50px 0px;
+} */
+.section5 img{ 
+    margin: 10px;
+}
+.section6{
+    margin: 20px 0px;
+}
+.section6 h2{
+    color: #202738;
+    font-family: "Shippori Mincho",serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.4;
+    margin: 25px;
+}
+.section6 p{
+    color: #636363;
+    font-family: "Chivo",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+.section6 h3{
+    color: #C46B48;
+    font-family: "Chivo",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    /* text-align: left; */
+}
+.section6 h4{
+    color: var(--28--);
+    font-family: "Chivo",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.section6 div{
+    display: inline-block;
+    /* flex-direction: row; */
+    /* margin: 10px 10px; */
+}
+.section6 img{
+    margin: 0px 0px 30px 30px;
+}
+.section7{
+    height: 309px;
+    background-image: url(../IMAGES/10017.jpg);
+    background-size: contain;
+}
+.section7 button{
+    height: 60px;
+    width: 150px;
+    color: var(--26--);
+    font-family: "Chivo",sans-serif;
+    font-size: 18px;
+    border: 2px solid var(--26--);
+    text-align: center;
+    margin: 145px 60px;
+}
+.section8{
+    text-align: center;
+}
+.section8 div{
+    margin: 20px 0px;
+}
+.section8 h2{
+    font-family: "Chivo",sans-serif;
+    color: var(--09--);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+.section8 a{
+    color: var(--06--);
+    font-family: "Chivo",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2;
+    /* list-style-type: none; */
+}
+.section8 img{
+    margin: 5px;
+}
+.section8 p{
+    color: var(--29--);
+    margin: 10px           ;
+}
+.section8 li{
+    list-style-type: none;
+}
+.section8 h3{
+    font-family: "Chivo",sans-serif;
+    color: var(--09--);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.section9 p{
+    color: var(--25--);
+    font-family: "Chivo",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+}
+@media(min-width:768px){
+    
+.header h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.section4 img{
+    margin-left: 0px;
+}
+.section4{
+    text-align: center;
+}
+.header p{
+    font-size: 21px;
+    box-sizing: border-box;
+    width: 500px;
+}
+.section1 div{
+    margin: 0px 0px;
+}
+.section1{
+    text-align: center;
+}
+.section1 h2{
+    font-size: 30px;
+    width: 430px;
+    text-align: left;
+}
+.section1 h3{
+    width: 430px;
+    font-size: 18px;
+    text-align: left;
+}
+.section2{
+    height: 360px;
+}
+.section3 h3{
+    margin: 0px 170px;
+}
+.section3{
+    margin: 0px 0px;
+}
+.section6 h2{
+    font-size: 30px;
+}
+.section6 p{
+    font-size: 18px;
+    margin: 0px 130px;
+}
+.section6{
+    /* margin: 20px 0px; */
+    text-align: center;
+}
+.section6 div{
+    margin: 20px 0px;
+}
+.section7{
+    background-size: cover;
+}
+.section7 button{
+    margin: 145px 120px;
+}
+}
+
+
+
+
+
+@media(min-width:1200px){
+
+.header{
+    height: 700px;
+}
+.header h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+.header p{
+    font-size: 21px;
+    box-sizing: border-box;
+    width: 500px;
+}
+.section1 div{
+    margin: 0px 0px;
+}
+.section1{
+    text-align: center;
+}
+.section1 h2{
+    font-size: 40px;
+    width: 470px;
+    text-align: left;
+}
+.section1 h3{
+    width: 470px;
+    font-size: 18px;
+    text-align: left;
+}
+.section2{
+    height: 360px;
+}
+.section3 h2{
+    font-size: 40px;
+}
+.section3 h3{
+    margin: 0px 280px;
+}
+.section3{
+    margin: 0px 0px;
+}
+.section4 img{
+    margin-left: 0px;
+}
+.section4{
+    height: 300px;
+    text-align: center;
+}
+.section4 div{
+    margin-top: 30px;
+}
+.section5{
+    margin: 0px 300px;
+}
+.section6 h2{
+    font-size: 40px;
+}
+.section6 p{
+    font-size: 18px;
+    margin: 0px 280px;
+}
+.section6{
+    /* margin: 20px 0px; */
+    text-align: center;
+}
+.section6 div{
+    margin: 20px 0px;
+}
+.section7 button{
+    margin: 145px 500px;
+}
+.section8{
+    margin-bottom: 50px;
+}
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-color: white;
+    padding: 20px;
+}
+.four{
+    height: 200px;
+    background-color: darkblue;
+    /* border: 10px solid white; */
+    /* border-radius: 5px; */
+    /* margin: 5px; */
+    /* padding: 20px; */
+}
+.div2{
+    background-color: white;
+    padding: 20px;
+}
+.five{
+    height: 200px;
+    background-color: black;
+    border: 10px solid white;
+    /* border-radius: 5px; */
+    /* margin: 10px; */
+    /* padding: 20px; */
+}
+.div3{
+    background-color: white;
+    padding: 20px;
+}
+.three{
+    height: 200px;
+    background-color: brown;
+    border: 10px solid white;
+    /* border-radius: 5px; */
+    /* margin: 10px; */
+    /* padding: 20px; */
+}

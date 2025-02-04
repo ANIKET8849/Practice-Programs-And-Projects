@@ -1,0 +1,61 @@
+1]insert
+=>INSERT INTO teachingstaff (Sr_No,FullName,Age,Salary,Subject,Standard) VALUES ("3","ABC","26","30000","MySQL","8th");
+2]select everything from employee/ Display all the details from the employee table
+=>select * from employee 
+3]Display emplyee_names from table employee
+=>select employee_name from employee;
+4]Display all the details of an employee who's id is 4;
+=>SELECT * FROM employee where e_id=4;
+5]Display all the details of an employee who's name is Prakash.
+=>SELECT * FROM employee where employee_name="Prakash";
+6]Display age of employee prakash;
+=>SELECT age FROM employee where employee_name="Prakash";
+7]Display name and surname of employee who's age is 45
+=>SELECT employee_name,employee_surname FROM employee where age=45;
+8]Display entire details of the employees who's age is less than 34
+=>select * from employee where age<34
+9]Display all the details of the employee who's age is greater than 34
+=>select * from employee where age>34
+10]Display all the details of the employee who's age is not 45
+=>select * from employee where age != 45
+11]Display all the details of the employee who's age is not 45
+=>select * from employee where not age = 45
+12]Display name of the employee's who's age is 34 or 20
+=>select employee_name from employee where age=34 or age=20
+13]Display the records of the employee according to the age in desc order
+=>select * from employee order by age desc
+14]Display the records of the employees according to the age in asc order
+=>select * from employee order by age asc
+15]Display the records of the employee according to their id in desc order
+=>select * from employee order by e_id desc;
+16]Display the records of the employee who's age is greater than 20 in desc order.
+=>select * from employee where age>20 order by age desc;
+17]Display the maximum age of employee
+=>select max(age) from employee 
+18]Display minimum age of employee
+=>select min(age) from employee 
+19]Display entire details of employee having maximum age
+=>select * from employee where age=(select max(age) from employee)
+20]Display entire details of employee having minimum age.
+=>select * from employee where age=(select min(age) from employee)
+21]Display average salary of employee
+=>select avg(salary) from employee
+22]Display count of employees having salary 20000
+=>select count(*) from employee where salary=20000
+23]Display second highest salary from employee
+=>select max(salary) from employee where salary <> (select max(salary) from employee)
+24]Display name and age of an employee who's age is second highest in the table
+=>select employee_name,age from employee where age=(select max(age) from employee where age<(select max(age) from employee))
+25)Calculate the overall salary consumed by employees
+=>SELECT sum(salary) from employee
+26)Calculate the sum of salalry consumed by raj and parkash
+=>SELECT SUM(Salary) FROM teachingstaff WHERE FullName="Pooja Pethkar" OR FullName="Asmita Mane"; 
+27)Display the name of employees having salary more than 10000
+=>SELECT employee_name from employee where salary>10000
+
+28)Display all the employee details having r in the beginning their names
+=>select * from employee where employee_name like "r%";
+29)Display all the details of employee having a at the end of their names
+=>select * from employee where employee_name like "%a"
+30)Display all the details of employee having ra in between their names.
+=>select * from employee where employee_name like "%ra%";

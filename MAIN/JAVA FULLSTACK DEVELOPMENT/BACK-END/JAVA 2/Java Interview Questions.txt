@@ -1,0 +1,60 @@
+Java Interview Questions
+
+1)What is Java Architecture? (JDK, JVM, JRE)
+2)Why is Java platform independent?
+3)What are static methods in Java?
+4)What is Constructor in Java?
+5)What are the pillars of Object Oriented Programming?
+6)What is the difference between POP & OOP?
+7)What is class?
+8)What is object?
+9)What is the difference between Method Overloading and Method Overriding?
+(Overloading: Methods with same name but different parameters in the same class)
+(Overriding: Methods with same name, same parameters but in different classes which are interconnected with inheritance)
+10)What is interface?
+11)What are access modifiers in java? (public, private, protected)
+12)Why we use super keyword in java? 
+13)What is the difference between Interface and Abstract Class?
+14)What is Run Time/Compile Time Polymorphism?
+15)What are getters and setters in java?
+16)What is Multilevel Inheritance?
+17)Why java do not support Multiple Inheritance?
+18)What is the syntax for creating an object?
+19)What are packages in Java? (Group of similar types of classes, interfaces and subpackages)
+20)What is an Exception?
+21)What is Exception Handling?
+22)What is final variable/final method/final class?
+23)What is ArrayList? (It is a dynamic array)
+24)What is LinkedList?
+25)What are the types of LinkedList?
+26)what are the operations on ArrayList/LinkedList?
+27)What are the five keywords which are used in Exception Handling? (try, catch, finally, throw, throws)
+28)Which is the only pointer used in Java? (this)
+29)Which package should be imported for using Scanner class?(java.util)
+30)What is a method?
+31)What is Abstraction?(Showing only essential information and hiding the details)
+32)What is Encapsulation? (Binding of data and methods together)
+33)What is Polymorphism? (One name many forms)
+34)What is Inheritance? (Creating new classes from the existing classes)
+35)What is Server?
+36)What is Client?
+37)What is Servlet?
+38)What is Web Application?
+39)What is servlet life-cycle?
+40)What is the service method in servlet life-cycle?(Most imp method of servlet)
+41)What is web.xml (Deployment Descriptor)? 
+42)What is JSP?
+43)what is the difference between JSP & Servlet?
+44)Why servlet is faster than JSP?
+45)What are Sessions and Cookies?
+46)What is PrintWriter?
+47)What is gerWriter?
+48)Why do we use getParameter method?
+49)Why do we use Scriplet / Expression / Declaration Tags?
+50)What is request & response?
+51)What is HttpServlet?
+52)What is HttpServletRequest & HttpServletResponse?
+
+
+
+

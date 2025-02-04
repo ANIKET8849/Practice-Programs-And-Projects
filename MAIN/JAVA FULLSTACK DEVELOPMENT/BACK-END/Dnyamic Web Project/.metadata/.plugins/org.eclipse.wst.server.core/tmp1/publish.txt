@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Wed Jan 22 19:52:03 IST 2025
+org.eclipse.jst.jee.server\:ATMSimulatorNew=C\:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\wtpwebapps\\ATMSimulatorNew

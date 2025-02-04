@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    height: 400px;
+    background-color: brown;
+}
+.two{
+    height: 400px;
+    background-color: black;
+    border: 2px solid yellow;
+}
+.three{
+    height: 300px;
+    width: 300px;
+    background-color: darkgrey;
+    border: 2px solid green;
+}
+.four{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    border: 2px solid red;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.three{
+    height: 200px;
+    width: 400px;
+    background-color: darkblue;
+    margin: 15px;
+}
+.one{
+    background-color: aquamarine;
+}
+.four{
+    background-color: blueviolet;
+}

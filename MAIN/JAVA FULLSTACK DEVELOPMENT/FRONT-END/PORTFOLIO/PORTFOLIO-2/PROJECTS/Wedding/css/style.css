@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Sono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lobster+Two:ital@0;1&family=Sono&family=Ubuntu&display=swap');
+:root{
+    --primaryColor:#D66371;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.lobstar{
+    font-family: 'Lobster Two', cursive;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.mobileDoveIcon{
+    position: relative;
+    top: -17px;
+    left: -15px;
+}
+.spanBorder{
+    border-bottom: 2px solid #bbb;
+    width: 20%;
+}
+.iconDove{
+    width:30%;
+    position: relative;
+    left: -18px;
+    top: -20px;
+}
+.footerIconDove{
+    width: 15%;
+    position: relative;
+    left: -15px;
+    top: -18px;
+}
+.offcanvas .offcanvas-header{
+    background-color: var(--primaryColor);
+    /* width:300px ; */
+}
+.offcanvas .offcanvas-body{
+    background-color: var(--primaryColor);
+    /* width:300px ; */
+}
+.offcanvas{
+    background-color: #fff;
+}
+.bg-main{
+    background-color: var(--primaryColor);
+}
+.love{
+    color:#D66371 ;
+}
+.logoSize{
+    font-size: 45px;
+}
+.dropdown-item{
+       color:#fff;
+}
+.dropdown-item:hover{
+    color: #000;
+}
+.dropdown-menu{
+    margin-left: 50px;
+}
+.hederBg{
+    background-image: url(../Images/bg.png);
+    height: 120vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.md{
+    font-size: 35px;
+}
+.fromtop{
+    padding-top: 35px;
+}
+.img-3{
+    width: 80%;
+}
+.img-4{
+    position: absolute;
+    left: -6%;
+    top:-5%;
+}
+
+.md-1{
+    font-size: 40px;
+}
+.icon-bg{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: 1px solid #D66371;
+    display: grid;
+    place-items: center;
+    color:#D66371;
+    transition: .5s all ease-in-out;
+}
+.icon-bg:hover{
+    background-color: #D66371;
+    color: #fff;
+    transition: .5s all ease-in-out;
+    transform: translateY(-4px);
+}
+.lorem{
+    font-size: 17px;
+    color: #525252;
+}
+.lorem-1{
+    font-size: 17px;
+    color: #525252;
+}
+.lorem-1:hover{
+    font-size: 17px;
+    color: #D66371;
+}
+.img-6{
+    position: absolute;
+    top: -5%;
+    left: 6%;
+}
+.img-5{
+    width: 80%;
+    margin-left: 2px;
+}
+.footer{
+    background-color: #FBF8F8;
+}
+.input-footer{
+    border: 1px solid #C9C9C9;
+}
+.input-footer:focus{
+    outline: none;
+    border: 1px solid #C9C9C9;
+}
+.Subscribe{
+    background-color: #D66371;
+    border: none;
+    font-size: 18px;
+}
+.Subscribe:hover{
+    background-color: #d74153;
+}
+.Newsletter{
+    font-size: 20px;
+}
+.lineHeight{
+    line-height: 2;
+}
+.sweet{
+    font-size: 25px;
+}
+.container-1{
+    position: relative;
+}
+.overlay{
+    width: 95%;
+    height:96.5%;
+    position: absolute;
+    top:1.75%;
+    left:2.5%;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255,255,255,0.6);
+    transform: scale(0);
+    transition: .3s ease;
+}
+.container-1:hover .overlay{
+   transform: scale(1);
+   transition: .3s ease;
+}
+.text {
+width: 100%;
+height: 100%;
+display: grid;
+place-items: center;
+}
+
+.container-2{
+    position: relative;
+}
+.overlay-2{
+    width: 95%;
+    height:95%;
+    position: absolute;
+    top:2.5%;
+    left:2.5%;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(255,255,255,0.6);
+    transform: scale(0);
+    transition: .3s ease;
+}
+.container-2:hover .overlay-2{
+   transform: scale(1);
+   transition: .3s ease;
+}
+.text-2 {
+width: 100%;
+height: 100%;
+display: grid;
+place-items: center;
+}
+.bgImg{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../Images/christine-jou-6PPQDX2liKE-unsplash.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.round{
+    display: inline-flex;
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    background: #9E9FA9;
+    margin-bottom: 3px;
+}
+.size{
+    font-size: 18px;
+    color: #585858;
+}
+.Loura,.Loura-1{
+    color: #585858;
+}
+.wedding{
+    color: #000;
+}
+.readMore{
+    background: #D66371;
+}
+.readMore:hover{
+    background-color: #d74153;
+}
+.weddingimg{
+    transition: .3s all ease-in-out;
+}
+.newsWedding:hover .weddingimg{
+    transform: scale(1.2);
+    transition: .3s all ease-in-out;
+}
+.wedding:hover , .Loura:hover{
+    color: #D66371;
+}
+.wedding,.sweet{
+    font-size: 25px;
+}
+.inputAttendeing{
+    border:none;
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.inputAttendeing:focus{
+    outline: none;
+}
+.yesLable,.inputAttendein ::placeholder{
+    color: #787878;
+    font-size: 18px;
+}
+.formAttending{
+    box-shadow:  0 0 10px rgba(0,0,0,0.6);
+    border-radius: 150px;
+    height: 700px;
+}
+.sendInquiry{
+    font-size: 14px;
+}
+.carousel-Img{
+    box-shadow: 0 0  10px rgba(0,0,0,0.6);
+}
+.Leslie{
+    font-size: 22px;
+    color: #000;
+}
+.Leslie:hover{
+    color: #D66371;
+}
+.rounded-circle-1:hover{
+     transform: scale(1.1);
+     transition: .2s all ease-in-out;
+} 
+.rounded-circle-1{
+    transition: .2s all ease-in-out;
+} 
+.overLapping{
+    background: url(../Images/cta2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:194vh;
+}
+.reception{
+    box-shadow: 0 0 7px rgba(0,0,0,0.6);
+}
+.Location{
+    color:#D66371 ;
+    border-bottom: 2px solid #D66371;
+}
+.Location:hover{
+    color:#e11e35 ;
+}
+.firstTime{
+    border: 10px solid #DFCACC;
+    height:90% ;
+}
+.dolor{
+    color: #525252;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+.lineUpper-parent{
+    margin-top:1px;
+}
+.lineUpper{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    margin-left: -2px;
+    background-color:#D66371;
+}
+.lineLower{
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    margin-left: -2px;
+    background-color:#D66371;
+}
+.spanRounded{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid #D66371;
+    display:grid;
+    place-items: center;
+}
+.solidRound{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D66371;
+}
+.topArrow{
+    width: 40px;
+    height: 40px;
+    background-color: #D66371;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    display: grid;
+    place-items: center;
+    z-index: 999;
+}
+.formSection{
+    padding:60px 0 50px ;
+}
+.topArrow:hover{
+    background-color: #d74153;
+}
+.Story{
+    padding-bottom: 30px;
+}
+.Story-1{
+    padding-bottom: 30px;
+}
+
+.Playbtn{
+    height: 60px;
+    width: 60px;
+    background:linear-gradient(#f60b32,#f60b32);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 999;
+    /* left: 90px;
+    bottom: 35px; */
+}
+/* button Animation */
+.Playbtn:before,
+ .Playbtn:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f0f0;
+    border-radius: 50%;
+    z-index:-1;
+    opacity: 0.7;
+}
+.Playbtn:before{
+    animation: play 2s ease-out infinite;
+}
+.Playbtn:after{
+    animation: play 2s 1s  ease-out infinite;
+}
+@keyframes  play{
+100%{
+    transform: scale(2.5);
+    opacity: 0;
+}
+}
+
+
+
+
+/* ------------------------------------------ */
+@media(min-width:768px)
+{
+    .overLapping{
+        height: 300px;
+    }
+    .mobileDoveIcon{
+        position: relative;
+        top: -17px;
+        left: -14px;
+    }
+    .formSection{
+        padding:110px 0 160px ;
+    }
+    .imgdecorateAttending-2{
+        width: 113%;
+        bottom: -137px;
+        left: -10px;
+    }
+    .imgdecorateAttending{
+        width: 113%;
+        top: -148px;
+        left: -48px;
+    }
+    .formAttending{
+        height: 800px;
+    }
+    .sendInquiry{
+        font-size: 16px;
+    }
+    .formAttending{
+        box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    }
+    .spanBorder{
+        width: 15%;
+    }
+    
+    .logoSize{
+        font-size: 55px;
+    }
+    .md{
+        font-size: 60px;
+    }
+    .MARRIED{
+        font-size: 18px;
+    }
+    .hederBg{
+    height: 221vh;
+    }
+    .fromtop{
+        padding-top: 35px;
+    }
+    .img-3{
+        width: 48%;
+        margin-top: 4px;
+        margin-left: 7px;
+    }
+    .img-4{
+        position: absolute;
+        left: 18%;
+        top:-2%;
+    }
+    .md-1{
+        font-size: 50px;
+    }
+    .img-5{
+        width: 48%;
+        margin-bottom: 1px;
+        margin-right: 5px;
+        margin-top: 3px;
+     }
+    .img-6{
+        position: absolute;
+        top: -3%;
+        left: 24%;
+    }
+    .footerIcon{
+        margin-top: -20px;
+    }
+    .sweet{
+        font-size: 45px;
+    }
+    .footerIconDove{
+        width: 16%;
+        position: relative;
+        left: -18px;
+        top: -21px;
+    }
+  .ceremony{
+    margin-top: -130px;
+  }
+  .Story{
+    padding-bottom: 40px;
+}
+.Story-1{
+    padding-bottom: 40px;
+}
+}
+/* -------------------------------------------- */
+@media(min-width:992px)
+{
+
+    .topArrow{
+        width: 45px;
+        height: 45px;
+        right: 20px;
+        bottom: 20px;
+    }
+    .roundingSpan{
+        width: 70px;
+        height: 70px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        border: 2px solid rgba(223, 202, 204, 0.5);
+        position: absolute;
+        left: 46.5%;
+        top: -30px;
+        background-color: #fff;
+    }
+    .verticalLine{
+        position: absolute;
+        left: 50%;
+        top: 190px;
+        display: inline-block;
+        width: 2px;
+        height: 75%;
+        background-color:rgba(223, 202, 204, 0.5);
+        z-index:-2;
+        
+    }
+    .lineUpper-parent-1{
+        margin-top:1px;
+        margin-right: -1px;
+    }
+.btn-bg{
+    background: #D66371;
+}
+.spanBorder{
+    width: 10%;
+}
+.my{
+    font-size:50px;
+}
+.btn-bg:hover{
+    background-color: #D66371;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    transition: 0.8s ease-in-out;
+}
+.underline{
+    position: relative;
+    display: inline-block;
+}
+
+.underline::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#D66371;
+    transition: 0.5s all ease-in-out;
+}
+.underline:hover::before{
+    width: 70%;
+}
+.nav-link{
+    color: #000;
+}
+.nav-link:hover{
+    color: #D66371;
+}
+.dropdown-item{
+    color:#000;
+    transition: .3s ease-in-out;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: #D66371;
+    transition: .3s ease-in-out;
+}
+.dropdown-menu{
+    width:200px;
+    margin-top: 1px;
+    margin-left:9px ;
+}
+.underline-2{
+    position: relative;
+    display: inline-block;
+}
+
+.underline-2::before{
+    content: "";
+    height: 1px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D66371;
+    transition: 0.5s all ease-in-out;
+}
+.underline-2:hover::before{
+    width: 100%;
+}
+.hederBg{
+    height: 118vh;
+}
+.fromtop{
+    padding-top: 90px;
+}
+.btnn1{
+    transition: .5s all ease-in-out;
+}
+.btnn1:hover{
+    transform: translateY(-2px);
+    transition: .5s all ease-in-out;
+}
+.img-3{
+    width: 83%;
+    margin-top: 1px;
+}
+.img-4{
+    position: absolute;
+    left: -5%;
+    top:-3%;
+} 
+.img-5{
+    width: 83%;
+}
+.img-6{
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    margin-top: 2px;
+}
+.lineHeight{
+    line-height: 2.5;
+}
+.footerIconDove{
+    width: 17%;
+}
+.imgdecorateAttending-2{
+    width: 113%;
+    bottom: -123px;
+    left: -13px;
+}
+.imgdecorateAttending{
+    width: 113%;
+    top: -159px;
+    left: -48px;
+}
+.formSection{
+    padding:150px 0 100px;
+}
+.img-right{
+    height: 110%;
+    position: relative;
+    top: -100px;
+}
+.Leslie{
+    font-size: 35px;
+}
+.loveStory-1{
+    position: relative;
+    right:-60px ;
+  }
+  .loveStory-2{
+      position: relative;
+      left: -60px;
+  }
+  .firstTime{
+    height:70%;
+  }
+.first-row,.second-row,.Third-row{
+    padding: 100px 0;
+}
+.loveStory-3{
+    position: relative;
+    right: -60px;
+}
+.loveStory-4{
+    position: relative;
+    left: -60px;
+    z-index: -1;
+}
+.bg-Image1{
+    background-image: url(../Images/sideImg-1.png),url(../Images/sideImg-2.png);
+    height:auto;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left , right;
+    background-attachment: fixed;
+}
+.Story{
+    padding-bottom: 40px;
+}
+.Story-1{
+    padding-bottom: 70px;
+}
+
+}
+
+/* ---------------------------- */
+@media(min-width:1200px){
+
+    .imgdecorateAttending-2{
+        width: 112%;
+        bottom: -37px;
+       left: -12px;
+    }
+    .hederBg{
+        height: 141vh;
+    }
+    .verticalLine {
+        left: 49%;
+        margin-left:6px ;
+    }
+    .loveStory-1{
+        position: relative;
+        right:-50px ;
+      }
+      .loveStory-2{
+          position: relative;
+          left: -80px;
+      }
+    .loveStory-3{
+        position: relative;
+        right: -80px;
+    }
+    .loveStory-4{
+        position: relative;
+        left: -83px;
+        z-index: -1;
+    }
+}
+
+/*----------------------------------------------- */
+@media(min-width:1400px)
+{
+    .verticalLine {
+        left: 50%;
+        margin-left:0px ;
+    }
+    .roundingSpan{
+        left: 47.5%
+    }
+    .first-row,.second-row,.Third-row{
+        padding: 150px 0;
+    }
+    .firstTime{
+        width: 75%;
+        height:70% ;
+    }
+    .loveStory-1{
+        position: relative;
+        right:-80px ;
+      }
+      .loveStory-2{
+          position: relative;
+          left: -40px;
+      }
+      .loveStory-3{
+        position: relative;
+        right:-45px ;
+    }
+    .loveStory-4{
+        position: relative;
+        left: -195px;
+    }
+    .carousel-control-prev {
+        left: -130px;
+        top: -109px;
+        opacity: 1;
+    }
+    .carousel-control-next{
+        right: -130px;
+        top: -109px;
+        opacity: 1;
+
+    }
+    .sliderbtn{
+        color: #D66371;
+    }
+    .sliderbtn:hover{
+        color: #cf2828;
+    }
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+        opacity: 1;
+    }
+    .imgSide-1{
+        width: 70%;
+    }
+    .sideImages-1{
+        position: absolute;
+        left: 0;
+        top:30%;
+    }
+    .sideImages-2{
+        position: absolute;
+        right: -135px;
+        top: 30%;
+        z-index: -2;
+    }
+    .formSection{
+        padding:310px 0 0;
+    }
+    .topupper{
+        top: -70px;
+    }
+    .formAttending{
+        height:750px;
+    }
+     .formAttending-1{
+            position: relative;
+            left: 140px;
+            z-index: 999;
+     }
+     .img-right{
+            position: relative;
+            left: -140px;
+            top: -250px;
+            z-index: -1;
+            height: 1039px;
+     }
+    .imgdecorateAttending-2{
+        width: 112%;
+        bottom: 117px;
+       left: -12px;
+    }
+    .imgdecorateAttending{
+        width: 112%;
+        top: -200px;
+        left: -52px;
+    }
+    .md{
+        font-size: 85px;
+    }
+    .MARRIED{
+        font-size: 25px;
+    }
+    .hederBg{
+        height: 141vh;
+    }
+    .fromtop{
+        padding-top: 120px;
+    }
+    .img-3{
+        width: 80%;
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    .img-4{
+        position: absolute;
+        left: -4%;
+        top:-3%;
+    } 
+    .img-5{
+        width: 80%;
+        margin-left: 2px;
+        margin-right: 12px;
+        margin-top: 5px;
+    }
+    .img-6{
+        position: absolute;
+        top: -3%;
+        left: 6%;
+    }
+    .Newsletter{
+        font-size: 30px;
+    }    
+    .footerIconDove{
+        width: 13%;
+        position: relative;
+        left: -18px;
+        top: -20px;
+    }
+    .wedding{
+        font-size: 30px;
+    }
+    .bride{
+        font-size: 18px;
+    }
+    .ceremony{
+        margin-top: -180px;
+      }
+}
+
+

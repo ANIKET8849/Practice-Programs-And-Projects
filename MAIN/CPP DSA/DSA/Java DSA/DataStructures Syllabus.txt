@@ -1,0 +1,68 @@
+Binary and Linear Search 
+Fibonacci search
+
+Selection Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Bucket Sort
+Counting Sort
+Radix Sort
+
+Open Hash Tables (Closed Addressing)
+Closed Hash Tables (Open Addressing)
+Folding Method
+Cryptographic Hash Functions
+
+Stack
+Dynamic Size Stack
+Queues
+Priority queue
+Double-ended queue (deque)
+
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Lists: Linked List Implementation
+Queues: Linked List Implementation
+Stack: Linked List Implementation
+
+Heaps
+Binomial Queues
+Fibonacci Heaps
+Skew Heaps
+
+Recursion -:
+Factorial
+Reversing a String
+N-Queens Problem
+
+
+Binary Search Trees
+AVL Trees
+Red-Black Trees
+Splay Trees
+Balanced Tree
+B tree and B+ tree
+
+Dynamic Programming -: 
+Calculating nth Fibonacci number
+Making Change
+Longest Common Subsequence
+Optimal Substructure
+ Overlapping Subproblems
+
+Huffman Coding
+Breadth-First Search
+Depth-First Search
+Connected Components
+Dijkstra's Shortest Path
+Prim's Minimum Cost Spanning Tree
+Topological Sort 
+Floyd-Warshall
+Kruskal Minimum Cost Spanning Tree Algorithm
+
+
+
+
+

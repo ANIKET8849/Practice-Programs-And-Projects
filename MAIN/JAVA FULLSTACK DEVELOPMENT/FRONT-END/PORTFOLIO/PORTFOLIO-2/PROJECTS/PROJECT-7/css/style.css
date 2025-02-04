@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-1{
+    background-image: url(../images/10033.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.head-nav{
+    background-color: black;
+    padding-top: 30px;
+    padding: 20px;
+}
+.con-img img{
+    filter: grayscale(100%)invert(100%);
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
+}
+.nav-content li{
+    list-style-type: none;
+}
+.nav-bg{
+    background-color:#000000a2;
+    padding: 10px;
+}
+.h1-1{
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(114, 180, 206);
+    padding-top: 200px;
+}
+.h1-2{
+    font-weight: 600;
+    color: rgb(200, 227, 237);
+    font-size: 50px;
+}
+.h1-3{
+    font-weight: 600;
+    font-size: 50px;
+}
+.bg-2{
+    background-image: url(../images/10041.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position:  center;
+}
+.we-fw{
+    font-size: 45px;
+}
+.mar{
+    margin: 0px 10px;
+}
+.bg-3-img{
+    background-image: url(../images/10013.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+.button-1{
+    padding: 8px 15px;
+    background-color: skyblue;
+    color: white;
+    
+}
+.bgc-4{
+    background-color: rgb(89, 199, 243);
+    width: 100%;
+    height: 200px;
+}
+.arrow img{
+    filter: grayscale(100%)invert(100%);
+}
+.div-content{
+    background-image: url(../images/10029.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.div-col{
+    background-color: #000000a2;
+    width: 100%;
+    height: 300px;
+}
+.fw1bold{
+    font-weight: 800;
+    font-size: 25px;
+}
+.read-anchor1 a{
+    text-decoration: none;
+    color: rgb(23, 79, 60);
+}
+.bg-img-6{
+    background-image: url(../images/10015.jpg);
+    width: 100%;
+    height: 500px;
+}
+.but-book{
+    padding: 8px 18px;
+    color: white;
+    background-color:aqua;
+
+}
+.or-bold{
+    font-weight: 900;
+    font-size: 35px;
+}
+.not-fw{
+    font-weight: 600;
+}
+.or-col{
+    color: aquamarine;
+}
+.or-padding{
+    padding-top: 150px;
+    line-height: 2;
+}
+.bg-8-col{
+    background-color: whitesmoke;
+}
+.sorry-col{
+    padding: 80px;
+    background-color: #000;
+}
+.br-img img{
+    border-radius: 50%;
+}
+.john-col{
+    color: aqua;
+}
+.quotes-col{
+    background-color:whitesmoke;
+    padding: 20px;
+}
+.bg-footer{
+    background-color: #000000c0;
+    width: 100%;
+    padding: 30px;
+}
+.footer-contact img{
+    filter: grayscale(100%)invert(100%);
+}

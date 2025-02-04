@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .nav ul{
+    display: none;
+} */
+.nav li{
+    display: none;
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    opacity: 0.6;
+}
+.nav img{
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+.btn-nav{
+    height: 40px;
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    /* float: right; */
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 8px;
+}
+.btn-nav:hover{
+    border: 2px solid white;
+}
+.right-div{
+    /* box-sizing: border-box; */
+    /* height: 250px; */
+    width: 450px;
+    /* background: linear-gradient(black,#191919); */
+    background-size: cover;
+    border-radius: 10px;
+    /* float: right; */
+    /* clear: both; */
+    padding: 30px;
+    margin: 520px 0px 10px 0px;
+}
+.left-div{
+    /* box-sizing: border-box; */
+    /* height: 250px; */
+    width: 450px;
+    /* background: linear-gradient(black,#191919); */
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 520px 0px 10px 0px;
+}
+.container-fluid h3{
+    color: white;
+    font-size: 35px;
+    /* text-shadow: 10px 0px 50px black; */
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+    letter-spacing: 1.75px;
+    line-height: 1.14;
+}
+.container-fluid h4{
+    color: white;
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.container-fluid h5{
+    color: white;
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.container-fluid span{
+    color: white;
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.anchor:hover{
+    color: white;
+}
+.btn{
+    height: 40px;
+    width: 110px;
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 15px;
+    border-radius: 0px;
+    text-align: left;
+    padding: 8px;
+}
+.section1{
+    height: 800px;
+    background: url(../IMAGES/10009.jpg);
+    background-size: cover;
+}
+.section2{
+    height: 800px;
+    background: url(../IMAGES/10010.jpg);
+    background-size: cover;
+}
+.section3{
+    height: 800px;
+    background: url(../IMAGES/10011.jpg);
+    background-size: cover;
+    /* padding: 220px 10px 10px 10px; */
+    
+}
+.section3 div{
+    margin: 480px 0px 10px 0px;
+}
+.section4{
+    height: 800px;
+    background: url(../IMAGES/10012.jpg);
+    background-size: cover;
+}
+.section5{
+    height: 800px;
+    background: url(../IMAGES/10013.jpg);
+    background-size: cover;
+}
+.section6{
+    height: 800px;
+    background: url(../IMAGES/10014.jpg);
+    background-size: cover;
+}
+.section7{
+    height: 900px;
+    /* position: absolute; */
+    background: url(../IMAGES/10015.jpg);
+    background-size: cover;
+    padding: 180px 10px 10px 10px;
+}
+.section7 div{
+    margin: 360px 0px 10px 0px;
+}
+.section7-btn1{
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    background-color: #fff;
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.section7-btn2{
+    height: 35px;
+    width: 150px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #1a1a1a;
+    font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+    font-weight: 200;
+    border: 2px solid #1a1a1a;
+    text-transform: capitalize;
+    margin: 0px 10px;
+}
+.section8{
+    color: white;
+    background-color: #191919;
+}
+.section8 li{
+    list-style-type: none;
+}
+.section8 a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.section8 h6{
+    font-size: 16px;
+    font-weight: 600;
+    /* text-align: center; */
+    margin: 30px 10px 10px 30px;
+}
+.section8 img{
+    color: #fff;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .nav li{
+        display: inline-block;
+        margin: 18px;
+    }
+    .ul a{
+        color: black;
+    }
+    /* .nav li{
+        display: flex;
+    } */
+    .nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-nav{
+        color: white;
+        background-color: black;
+        font-size: 13px;
+        font-family: "Infiniti Light","Infiniti Extended Regular",Verdana,Arial,sans-serif;
+        /* display: inline-block; */
+        padding: 8px;
+        margin: 15px;
+    }
+    .btn-nav:hover{
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
+
+
+
+
+
+@media(min-width:992px){
+    .right-div{
+        float: right;
+        clear: both;
+        margin: 100px 20px 10px 0px;
+    }
+    .left-div{
+        margin: 100px 0px 10px 0px;
+    }
+    .container-fluid h3{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .container-fluid h4{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container-fluid h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .section1{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section2{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section3{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section3 div{
+        /* height: 500px; */
+        margin: 100px 0px 10px 0px;
+    }
+    .section4{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section5{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section6{
+        height: 550px;
+        background-size: 100% 100%;
+    }
+    .section7{
+        height: 550px;
+        background-size: 100% 100%;
+        padding: 0px;
+    }
+    .section7 div{
+        margin: 100px 0px 10px 0px;
+    }
+
+}

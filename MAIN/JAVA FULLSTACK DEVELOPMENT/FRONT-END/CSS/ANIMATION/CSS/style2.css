@@ -1,0 +1,16 @@
+/* Set the margins and padding to 0 for both the body and html elements */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the overflow property to hidden for the container element */
+#container {
+  height: 100%;
+}
+
+/* Hide the bub-line and bub-line2 elements */
+#bub-line, #bub-line2 {
+  display: none;
+}

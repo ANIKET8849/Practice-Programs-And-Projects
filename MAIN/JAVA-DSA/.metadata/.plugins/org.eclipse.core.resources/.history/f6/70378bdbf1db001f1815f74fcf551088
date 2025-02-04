@@ -1,0 +1,108 @@
+package QuickSort;
+
+//public class QuickSort {
+//	int partition(int arr[],int low,int high) {
+//		int mid =(low+high)/2;
+//		int pivot=arr[mid];
+//		while(low<high) {
+//			if (arr[low]>arr[high]) {
+//				int temp =arr[low];
+//				arr[low]=arr[high];
+//				arr[high]=temp;
+//				low++;
+//				high--;
+//			}
+//		}
+//		
+//		return mid;
+//	}
+//	
+//	void sort(int arr[],int l,int h) {
+//		if (l<h) {
+//			int pi=partition(arr, l, h);
+//			sort(arr, l, pi-1);
+//			sort(arr, pi+1, h);
+//		}
+//	}
+//
+//	void printarr(int arr[]) {
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.print(arr[i]+" ");
+//		}
+//	}
+//	public static void main(String[] args) {
+//		int arr[]= {3,7,44,3,8,5,4,55};
+//		QuickSort qSort =new QuickSort();
+//		qSort.printarr(arr);
+//	}
+//
+//}
+
+
+
+public class QuickSort {
+
+    // Partition method
+    int partition(int arr[], int low, int high) {
+        int mid = (low + high) / 2;
+        int pivot = arr[mid];
+        int i = low;
+        int j = high;
+
+        while (i <= j) {
+            // Move indices to locate elements that are out of place
+            while (arr[i] < pivot) {
+                i++;
+            }
+            while (arr[j] > pivot) {
+                j--;
+            }
+
+            // Swap elements if needed and adjust pointers
+            if (arr[i]>arr[j]) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                i++;
+                j--;
+            }
+        }
+
+        return i; // Return partition index
+    }
+
+    // Sort method
+    void sort(int arr[], int low, int high) {
+        if (low < high) {
+            // Partition the array and get the partition index
+            int pi = partition(arr, low, high);
+
+            // Recursively sort the two halves
+            sort(arr, low, pi - 1);
+            sort(arr, pi, high);
+        }
+    }
+
+    // Print array method
+    void printArray(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        int arr[] = {3, 7, 44, 3, 8, 5, 4, 55};
+
+        QuickSort qSort = new QuickSort();
+        System.out.println("Original Array:");
+        qSort.printArray(arr);
+
+        qSort.sort(arr, 0, arr.length - 1);
+
+        System.out.println("Sorted Array:");
+        qSort.printArray(arr);
+    }
+}
+

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.org.ManyToMany.Course" table = "Course">
+      
+      
+      <id name = "cid">
+
+      </id>
+      
+      <property name = "cname"/>
+      <property name = "fee"/>
+   
+   <set name="faculty" table="facultycourse" cascade="all">
+   		<key column="cid"></key>
+   		<many-to-many class="com.org.ManyToMany.Faculty" column="fid"></many-to-many>
+   </set>
+      
+      
+   </class>
+</hibernate-mapping>

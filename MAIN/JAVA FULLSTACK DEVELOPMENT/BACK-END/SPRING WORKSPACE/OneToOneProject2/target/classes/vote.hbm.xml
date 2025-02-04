@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.org.OneToOneProject2.Vote" table = "Note">
+      
+      
+      <id name = "vtid">
+         <generator class="foreign">
+         	<param name="property">voter</param>
+         </generator>
+      </id>
+      
+      <property name = "pname"/>
+      <property name = "cdate"/>
+      
+      <one-to-one name="voter" class="com.org.OneToOneProject2.Voter" cascade="all"></one-to-one>
+   </class>
+</hibernate-mapping>
